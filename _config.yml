@@ -1,4 +1,4 @@
-baseurl: "http://ycpcs.github.io/cs320-spring2016"
+baseurl: "/cs320-spring2017"
 
 # Don - Comment out this on Windows (to preview)
 markdown: kramdown

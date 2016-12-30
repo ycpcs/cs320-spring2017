@@ -6,7 +6,7 @@ title: Syllabus
 CS 320 - Software Engineering and Design
 ========================================
 
-**Spring 2016**
+**Spring 2017**
 
 Class times:
 
@@ -16,7 +16,7 @@ Class times:
 
 Instructor:
 
--   [Donald Hake](http://www.ycp.edu/academics/academic-departments/engineering-and-computer-science/faculty-and-staff/department-employee-records/name-32407-en.html), <djhake2@ycp.edu>, KEC 137 <br /> Office Hours: M/W/F 10:00 - 11:00, T/Th 9:30 - 10:30
+-   [Donald Hake](http://www.ycp.edu/academics/academic-departments/engineering-and-computer-science/faculty-and-staff/department-employee-records/name-32407-en.html), <djhake2@ycp.edu>, KEC 137, 815-6587<br /> Office Hours: M/W/F 10:00 - 11:00, T/Th 9:30 - 10:30, and by appointment
 
 Course Description
 ------------------
@@ -87,17 +87,19 @@ Your overall grade for the course will be determined as follows:
 
 ### Course website
 
-Please check the course web page, <http://ycpcs.github.io/cs320-spring2016/>, regularly for important announcements.
+Please check the course web page, <http://ycpcs.github.io/cs320-spring2017/>, regularly for important announcements.
 
 ### Attendance
 
 Class time will be devoted to activities, project work, demos, and status reports. As such, it is essential that you attend class.
 
-If you have more than two unexcused absences, then your course grade will be reduced by a number of points equal to
+If you have more than two unexcused absences, then your course grade could be reduced by as much as the number of points equal to
 
 > 2<sup>(<i>absences</i> - 2)</sup>
 
-For example, if you have 5 unexcused absences, then your course grade will be reduced by 2<sup>(5-2)</sup> = 8 points.
+For example, if you have 5 unexcused absences, then your course grade could be reduced by as much as 2<sup>(5-2)</sup> = 8 points.
+
+At a minimum, you attendance grade will be reduced by 1 percentage point for every unexcused absence over 2.
 
 ### Reading Assignments
 
@@ -107,7 +109,7 @@ Because we will be using class time primarily for discussion and activities, rat
 
 ### Posting and submission of assignments and labs
 
-Assignments and labs will be posted as zip files on the course web page, <http://ycpcs.github.io/cs320-spring2016/>.
+Assignments and labs will be posted as zip files on the course web page, <http://ycpcs.github.io/cs320-spring2017/>.
 
 Written assignments will be created and submitted via shared Google Docs.
 
@@ -121,17 +123,21 @@ The college catalog states the following:
 
 Please refer to the college catalog for an explanation of the official college policies relating to academic integrity.
 
-The following policy pertains to homework and graded (individual) programming assignments in this course:
+**The following policy pertains to homework and graded (individual) programming assignments in this course:**
 
 > All homework assignments and graded (individual) programming assignments are to be completed individually. I encourage you to discuss high level concepts and strategies with other students, but any work you submit **must be yours alone**.
+>
+> Because the individual assignments are essential for working towards and demonstrating the achievement of the course outcomes, you must solve them on your own.  You may discuss the problem and high-level (pseudo-code) approaches to solving the problem with other students.  You may *not*, under any circumstances, discuss or share concrete implementation techniques or code.  Examples of forbidden types of collaboration include, but are not limited to: looking at another student's code, allowing another student to see your code, viewing and/or using code from an external source such as a web page, discussing the use of specific API functions to solve a problem, giving or receiving help debugging specific code.
 >
 > Direct copying of code or other work from other students, web sites, or other sources **is absolutely forbidden under any circumstances**.
 >
 > Any sources (books, websites, articles, fellow students, etc.) that you consult in completing an assignment **must be properly acknowledged**. In general, I strongly discourage you from using any resource not explicitly listed in the course syllabus or on the course web page. When you work on a programming assignment, it must be **your** program, not your adaptation of someone else's program.
 
-You are allowed to (and expected to) work with the members of your team on team project(s).
+You are allowed to (and expected to) work with the members of your team on team project(s).  I will generally give you explicit permission to use the code supplied through examples, labs, and solutions for your team projects.  In fact, I will encourage you to use that code as a basis for starting your project, if you happen to be working in Java and Eclipse.
 
-Quizzes and exams must be completed individually.
+You may work with other students on the labs. However, I do expect you to complete and submit them, and they count towards your participation grade.
+
+All quizzes and exams must be completed individually.
 
 Any violation of the course's academic integrity policy will be referred to the Dean of Academic Affairs, and could have consequences ranging from a 0 on an assignment to dismissal from the college.
 

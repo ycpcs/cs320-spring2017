@@ -3,7 +3,7 @@ layout: default
 title: "Assignment 2: Individual Project Proposal"
 ---
 
-**Due: Friday, Feb 5th by 11:59 PM**
+**Due: [See Assignment Schedule](index.html)**
 
 This is an **Individual** assignment.
 
@@ -25,6 +25,7 @@ for you.
 
 Some possible examples:
 
+* Learn a new programming environment, e.g. C#, .NET, and MS Visual Studio; Android and IntelliJ; Python, PyCharm, and Pygame
 * Learn a new programming language (E.g., Clojure, Scala, Erlang)
   and write a nontrivial program in that language
 * Learn about Javascript and AJAX for rich web client interfaces,

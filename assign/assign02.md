@@ -26,12 +26,13 @@ for you.
 Some possible examples:
 
 * Learn a new programming environment, e.g. C#, .NET, and MS Visual Studio; Android and IntelliJ; Python, PyCharm, and Pygame
-* Learn a new programming language (E.g., Clojure, Scala, Erlang)
+* Learn a new programming language, e.g., Clojure, Scala, Erlang
   and write a nontrivial program in that language
 * Learn about Javascript and AJAX for rich web client interfaces,
   develop a web application
-* Learn about programming embedded systems and hardware interfacing
-  (e.g., AVR, Arduino), use it in a hardware project (a data logger,
+* Try developing your own website in Grails or Ruby on Rails
+* Learn about programming embedded systems and hardware interfacing, 
+  e.g., AVR, Arduino, and then use it in a hardware project (a data logger,
   robot, etc.)
 
 These are just examples: I encourage you to be creative and

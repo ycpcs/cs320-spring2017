@@ -30,7 +30,7 @@ Some possible examples:
   and write a nontrivial program in that language
 * Learn about Javascript and AJAX for rich web client interfaces,
   develop a web application
-* Try developing your own website in Grails or Ruby on Rails
+* Try developing your own website using Grails or Ruby on Rails
 * Learn about programming embedded systems and hardware interfacing, 
   e.g., AVR, Arduino, and then use it in a hardware project (a data logger,
   robot, etc.)

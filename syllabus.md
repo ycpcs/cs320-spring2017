@@ -76,12 +76,12 @@ Grades are assigned on a 100-point scale:
 
 Your overall grade for the course will be determined as follows:
 
--   Individual assignments: 15% **(&dagger;)**
+-   Individual project, labs, and assignments: 25% **(&dagger;)**
 -   Contributions to team project: 50% **(\*)**
--   Midterm exams: 30%
+-   Midterm exam: 20%
 -   Attendance and participation: 5%
 
-**(&dagger;)** You must make a good faith effort to complete all of the assignments in order to pass the course.  Failure to complete all assignments is grounds for receiving a reduced or failing grade for the course.
+**(&dagger;)** You must make a good faith effort to complete all of the labs assignments in order to pass the course.  Failure to complete all labs and assignments is grounds for receiving a reduced or failing grade for the course.
 
 **(\*)** You must make a substantial *technical* contribution to your team software project. Although the non-technical contributions you make to your project, such as planning, communication, and organization, are important, you must also make a substantial contribution to the design and implementation of the software. I reserve the right to assign a failing grade for the course to any student who does not do this.
 
@@ -99,7 +99,7 @@ If you have more than two unexcused absences, then your course grade could be re
 
 For example, if you have 5 unexcused absences, then your course grade could be reduced by as much as 2<sup>(5-2)</sup> = 8 points.
 
-At a minimum, you attendance grade will be reduced by 1 percentage point for every unexcused absence over 2.
+At a minimum, you attendance grade will be reduced by 1 percentage point for every unexcused absence over 2, and it could even be negative if you have more than 5 un-unexcused absences.
 
 ### Reading Assignments
 

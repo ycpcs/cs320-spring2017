@@ -3,7 +3,7 @@ layout: default
 title: "Labs"
 ---
 
-This page lists the lab activities.  Labs are not graded.  However, they important concepts and techniques, so you should make sure to complete all of them.
+This page lists the lab activities.  We will get started on these labs in class, but you will not be able to finish them in class.  Unlike last year, all of the labs will be graded.  You will not pass the class without completing and submitting all of them.  They provide extremely important concepts and techniques that will be essential for completing your team project.  The given due dates are the enforced date, but I **HIGHLY** encourage you to work on the SQL-related labs (Lab04, Lab05, and Lab06) ahead of time (over Winter Break), as they are essential for getting a good start on your persistent database design and implementation.  In fact, your team will likley be using Lab06 as the basis for your team project's database.  If you ask any of the teams from last year, they will all tell you that the database portion of their project implementation was the most time-consuming and difficult of their various project's tasks.
 
 Due Date | Lab | File
 ---- | --- | ----

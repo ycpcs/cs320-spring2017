@@ -9,10 +9,10 @@ This document describes the expectations for each milestone.
 
 > Date | Milestone
 > ---- | ---------
-> Monday, Mar 21 | Milestone 1: Minimal Working System
-> Friday, Apr 1 | Milestone 2: Progress on features
-> Friday, Apr 15 | Milestone 3: "75%" Working System, Persistence using SQL database
-> Monday, May 2 | Milestone 4: "95%" Working System
+> Monday, March 20    | Milestone 1: Minimal Working System
+> Monday, April 3     | Milestone 2: Progress on Features
+> Wednesday, April 19 | Milestone 3: "75%" Working System (persistence using SQL database)
+> Monday, May 1       | Milestone 4: "95%" Working System (presentation & demo "dry run")
 
 ## Expectations
 
@@ -24,6 +24,8 @@ This document describes the expectations for each milestone.
 
 The idea of a minimal working system is to create a working foundation early in the project's development.  Subsequent iterations of the development process will build upon this foundation to implement additional features.
 
+**NOTE: In order to hit the first milestone, and place your team in a good position to achieve success, you should consider putting in a good deal of initial development work on your web front-end over Winter Break.**
+
 **Milestone 2: Progress on features**.  In this milestone, your team should demonstrate some progress on features, such that at least some use cases are fully or partially implemented.  It is fine if your system is using the "fake" database at this point.
 
 **Milestone 3: "75%" Working System, Persistence using SQL database**. Your team should demonstrate a working system that implements most of the major system requirements.  Also, Your team should demonstrate that there is a working implementation of the persistence interface that uses an SQL database to store and retrieve data (e.g., using Derby).  Note that it is not expected that the system has a high degree of "polish": the UI doesn't have to be beautiful, for example.  However, the features that are implemented should be functional and free of bugs.
@@ -34,11 +36,11 @@ The idea of a minimal working system is to create a working foundation early in 
 * A slide that lists the names of your SQL database queries.  Note that this should not include the SQL code, but rather method names, such as "getAllBooksByAuthor", along with a short description of each query.
 * A slide summarizing the current progress on your project, i.e., a list of features that have been implemented.
 * A slide summarizing the major technical challenges that your team faced, and how you overcame them.
-* A slide summarizing what you plan to accomplish before your final presentation on May 11th.
+* A slide summarizing what you plan to accomplish before your final presentation and demo.
 
 ## Evaluation
 
-For each of these milestones, I will give your team one of the following grades: *below expectations*, *meets expectations*, or *exceeds expectations*. Below expectations means that I am concerned that your team is not making sufficient progress.
+For each of these milestones, I will give your team one of the following grades: *below expectations*, *meets expectations*, or *exceeds expectations*. Below expectations means that I am concerned that your team is not making sufficient progress.  At all 4 milestones, I expect that there will be sufficient effort put towards automated unit test case development.  **DO NOT LEAVE TEST CASES AS AN AFTER-THOUGHT - YOUR TEAM WILL RECEIVE "BELOW EXPECTATIONS" IF YOU DO NOT HAVE SUFFICIENT TEST CASES DEVELOPED.**
 
 <!-- vim:set wrap: ­-->
 <!-- vim:set linebreak: -->

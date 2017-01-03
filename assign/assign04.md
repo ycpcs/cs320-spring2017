@@ -9,14 +9,14 @@ This document describes the expectations for each milestone.
 
 *Important*: For each milestone, make sure you come to class prepared to demonstrate your work.  If there is any hardware or software you need, it is your responsibility to make sure it is available and working.
 
-*Important*: Each individual milestone demo will be about 4 minutes (in order for me to see all of the demos.)
+*Important*: Each individual milestone demo canbe no longer than 3-4 minutes (in order for me to see all of the demos during class.)
 
 > Date | Milestone
 > ---- | ---------
-> Wednesday, Mar 23 | Milestone 1: Baseline Prototype
-> Friday, Apr 8 | Milestone 2: 33% Working Progress
-> Friday, Apr 22 | Milestone 3: 67% Working Progress
-> Wednesday, May 4 | Milestone 4: Final Project Demo
+> Monday, March 27 | Milestone 1: Baseline Prototype
+> Monday, April 10 | Milestone 2: 33% Working Progress
+> Monday, April 24 | Milestone 3: 67% Working Progress
+> Wednesday, May 3 | Milestone 4: Final Project Demo
 
 ## Expectations
 

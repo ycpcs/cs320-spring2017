@@ -3,7 +3,7 @@ layout: default
 title: "Assignment 1: Project Proposal"
 ---
 
-**Due: [See Assignment Schedule](../index.html)**
+**Due: [See Assignment Schedule](index.html)**
 
 This is a **Team** assignment.
 

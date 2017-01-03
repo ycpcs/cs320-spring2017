@@ -6,9 +6,9 @@ title: "Lab 2: Guessing Game Webapp"
 Getting Started
 ===============
 
-Import [CS320\_Jetty.zip](CS320_Jetty.zip) and [CS320\_Lab03.zip](CS320_Lab03.zip) into Eclipse (**Import &rarr; General &rarr; Existing Projects into Workspace &rarr; Archive File**).
+Import [CS320\_Jetty.zip](CS320_Jetty.zip) and [CS320\_Lab02.zip](CS320_Lab02.zip) into Eclipse (**Import &rarr; General &rarr; Existing Projects into Workspace &rarr; Archive File**).
 
-You should see two new projects in your workspace, **CS320\_Jetty** and **CS320\_Lab03**.
+You should see two new projects in your workspace, **CS320\_Jetty** and **CS320\_Lab02**.
 
 Your Task
 =========
@@ -19,6 +19,6 @@ See **GuessingGame.java**, **\_view/guessingGame.jsp**, and **GuessingGameServle
 
 To run the webapp, run **Main.java** as a Java application and enter the following URL in your web browser:
 
-> [http://localhost:8081/lab03/guessingGame](http://localhost:8081/lab03/guessingGame)
+> [http://localhost:8081/lab02/guessingGame](http://localhost:8081/lab02/guessingGame)
 
 If you have time, implement JUnit tests to test the **GuessingGame** and **GuessingGameController** classes.

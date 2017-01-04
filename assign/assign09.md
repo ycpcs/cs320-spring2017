@@ -3,7 +3,7 @@ layout: default
 title: "Assignment 9: Individual Project Deliverables"
 ---
 
-**Due: Friday, May 6th by 11:59 PM**
+**Due: Friday, May 5th by 11:59 PM**
 
 This is an **individual** project
 

@@ -3,7 +3,7 @@ layout: default
 title: "Assignment 11: Team Project Self/Peer Evaluation"
 ---
 
-**Due**: Tuesday, May 10th by 11:59 PM
+**Due: Tuesday, May 9th by 11:59 PM**
 
 This is an **individual** assignment
 

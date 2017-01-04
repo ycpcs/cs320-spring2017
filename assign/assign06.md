@@ -3,7 +3,7 @@ layout: default
 title: "Assignment 6: Problem Domain Analysis"
 ---
 
-Due: **Monday, February 22nd** by 11:59 PM
+**Due: [See Assignment Schedule](index.html)**
 
 This is a **team** assignment
 

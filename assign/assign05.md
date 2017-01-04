@@ -3,7 +3,7 @@ layout: default
 title: "Assignment 5: Use Cases"
 ---
 
-**Due**: Wednesday, February 10th by 11:59 PM
+**Due: [See Assignment Schedule](index.html)**
 
 This is a **team** assignment
 

@@ -10,6 +10,13 @@ Import [CS320\_Jetty.zip](CS320_Jetty.zip) and [CS320\_Lab02.zip](CS320_Lab02.zi
 
 You should see two new projects in your workspace, **CS320\_Jetty** and **CS320\_Lab02**.
 
+See **AddNumbers.java**, **\_view/addNumbers.jsp**, and **AddNumbersServlet.java** to understand how the model, view, and servlet classes work for the AddNumbers example.
+
+To run the AddNumbers webapp, run **Main.java** as a Java application and enter the following URL in your web browser:
+
+> [http://localhost:8081/lab02/addNumbers](http://localhost:8081/lab02/addNumbers)
+
+
 Your Task
 =========
 
@@ -21,4 +28,24 @@ To run the webapp, run **Main.java** as a Java application and enter the followi
 
 > [http://localhost:8081/lab02/guessingGame](http://localhost:8081/lab02/guessingGame)
 
-If you have time, implement JUnit tests to test the **GuessingGame** and **GuessingGameController** classes.
+Lastly, implement JUnit tests to test the **GuessingGame** and **GuessingGameController** classes.
+
+Submitting
+==========
+
+When you are done, submit the lab to the Marmoset server using the method below.
+
+
+From a web browser
+------------------
+
+Save the project (**CS201\_Lab02**) to a zip file by right-clicking it and choosing
+
+> **Export...&rarr;Archive File**
+
+
+Upload the saved zip file to the Marmoset server as **lab02**. The server URL is
+
+> [https://cs.ycp.edu/marmoset/](https://cs.ycp.edu/marmoset/)
+
+

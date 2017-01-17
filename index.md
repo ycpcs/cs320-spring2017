@@ -16,6 +16,7 @@ All information about the course will be posted here.
 * [Resources](resources/index.html)
 * [Assignments](assign/index.html)
 * [Labs](labs/index.html)
+* [Marmoset (submission server)](https://cs.ycp.edu/marmoset)
 * [Activities](activities.html)
 
 <!-- Commented out Practice Exams, since we did take home exams.

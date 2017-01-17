@@ -6,7 +6,7 @@ title: "Lab 1: HTML and CSS"
 Your Task
 =========
 
-Use HTML and CSS to create a resume that looks like the following (click for full-size):
+Use HTML and CSS to create your own personal resume, using the following example as a template (click for full-size):
 
 > <a href="images/lab01/resume.png"><img style="width: 500px;" src="images/lab02/resume.png" /></a>
 
@@ -55,3 +55,19 @@ You can use the tag
 to end a line of text.
 
 You will need to use margins to spread things out a bit. (For example, you should have some vertical space between resume sections.)
+
+Submitting
+==========
+
+When you are done, submit the lab to the Marmoset server using the method below.
+
+
+From a web browser
+------------------
+
+Save your HTML and CSS files to a zip file named **lab01.zip**.
+
+Upload the saved zip file to the Marmoset server as **lab01**. The server URL is
+
+> [https://cs.ycp.edu/marmoset/](https://cs.ycp.edu/marmoset/)
+

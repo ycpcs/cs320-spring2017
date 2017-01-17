@@ -39,7 +39,7 @@ When you are done, submit the lab to the Marmoset server using the method below.
 From a web browser
 ------------------
 
-Save the project (**CS201\_Lab02**) to a zip file by right-clicking it and choosing
+Save the project (**CS320\_Lab02**) to a zip file by right-clicking it and choosing
 
 > **Export...&rarr;Archive File**
 

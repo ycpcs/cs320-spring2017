@@ -65,7 +65,7 @@ When you are done, submit the lab to the Marmoset server using the method below.
 From a web browser
 ------------------
 
-Save your HTML and CSS files to a zip file named **lab01.zip**.
+Save your HTML and CSS files to a zip file named **CS320_Lab01.zip**.
 
 Upload the saved zip file to the Marmoset server as **lab01**. The server URL is
 

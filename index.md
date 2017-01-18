@@ -81,8 +81,9 @@ All information about the course will be posted here.
 
 --->
 
+* **Jan 18** - [Lab 1: HTML and CSS](labs/lab01.html) is posted
 * **Jan 18** - [Assignment 1](assign/assign01.html) and [Assignment 2](assign/assign02.html) are posted.
-* **Jan 18** - Welcome back to KEC!
+* **Jan 18** - Welcome back to KEC and the most FUN you've ever had in a course!
 
 <!-- vim:set wrap: ­-->
 <!-- vim:set linebreak: -->

@@ -74,10 +74,13 @@ All information about the course will be posted here.
 
 --->
 * **Jan 23** - [Lab 2: Web Applications](labs/lab02.html) is posted.  Please also see the [WebApps Notes](labs/lab02_notes.html) for additional information about setting up the lab.
+
 * **Jan 23** - [Assignment 4](assign/assign04.html) describes the expectations for the individual project milestones.
+
 * **Jan 23** - [Assignment 3](assign/assign03.html) describes the expectations for the team project milestones.
 
 * **Jan 22** - Assign02 - Individual Project Proposal **due date moved to Sunday, 2-4-17**
+
 * **Jan 22** - Assign01 - Team Project Proposal **due date moved to Sunday, 1-29-17**
 
 * **Jan 20** - Lab1: HTML & CSS Lab **due Sunday, 1-29-17**

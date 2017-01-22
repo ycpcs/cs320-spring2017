@@ -80,7 +80,7 @@ Create a free Oracle account and then download and install the appropriate versi
 
 * Run the executable - it will bring up the installer.  By default, it will install to the **C:/Program Files/Java** folder.  It will install both the JDK and the JRE at that location.
 
-* After it is installed, you can then follow the above instructions to set the JRE System Library to the jdk you just installed.
+* After it is installed, you can then follow the above instructions to set the **JRE System Library** to the JDK you just installed.
 
 
 Other Issues

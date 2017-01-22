@@ -9,8 +9,8 @@ This page lists the assignments.
 
 Assignment | Type | Due
 ---------- | ---- | ---
-[Assignment 1: Team Project Proposal](assign01.html) | Team | Fri, Jan 27th by 11:59 PM
-[Assignment 2: Individual Project Proposal](assign02.html) | Individual | Wed, Feb 1st by 11:59 PM
+[Assignment 1: Team Project Proposal](assign01.html) | Team | Sun, Jan 29th by 11:59 PM
+[Assignment 2: Individual Project Proposal](assign02.html) | Individual | Sun, Feb 4th by 11:59 PM
 [Assignment 3: Team Project Milestones](assign03.html) | Team | Multiple (see description)
 [Assignment 4: Individual Project Milestones](assign04.html) | Individual | Multiple (see description)
 [Assignment 5: Use cases](assign05.html) | Team | Sun, Feb 12th by 11:59 PM

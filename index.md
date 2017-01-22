@@ -72,14 +72,14 @@ All information about the course will be posted here.
 
 * **Jan 26** - I've added links to the XP discussion questions (along with a summary of the XP material) to the schedule page.  Please review the XP reading assignments, keeping in mind the discussion questions (which are in bold).  We will likely not be able to cover all of those questions in class, but you should consider how you would answer them and be prepared to discuss them in class on Friday and Monday..
 
-* **Jan 25** - I've added a link in [Assignment 1](assign/assign01.html) for a suggested format for the Group Project Proposal.  Please follow that basic format for your submission.
-
-* **Jan 25** - [Assignment 3](assign/assign03.html) describes the expectations for the team project milestones.
-* **Jan 25** - [Assignment 4](assign/assign04.html) describes the expectations for the individual project milestones.
-
-* **Jan 25** - The [Schedule](schedule.html) has been updated for the Group Project Proposal (now due Fri, Jan 29), the XP reading assignments (now due Fri, Jan 29 and Mon, Feb 1), and the UML Use Case reading (now Wed, Feb 3). The Individual Project Proposal is now due Fri, Feb 5). Other schedule dates have been moved out, as well.
-
 --->
+* **Jan 23** - [Lab 2: Web Applications](labs/lab02.html) is posted.  Please also see the [WebApps Notes](labs/lab02_notes.html) for additional information about setting up the lab.
+
+* **Jan 22** - [Assignment 4](assign/assign04.html) describes the expectations for the individual project milestones.
+* **Jan 22** - [Assignment 3](assign/assign03.html) describes the expectations for the team project milestones.
+* **Jan 22** - Assign02 - Individual Project Proposal due date moved to Sunday, 2-4-17 
+* **Jan 22** - Assign01 - Team Project Proposal due date moved to Sunday, 1-29-17
+* **Jan 22** - Lab1: HTML & CSS Lab due Sunday, 1-29-17
 
 * **Jan 18** - [Lab 1: HTML and CSS](labs/lab01.html) is posted
 * **Jan 18** - [Assignment 1](assign/assign01.html) and [Assignment 2](assign/assign02.html) are posted.

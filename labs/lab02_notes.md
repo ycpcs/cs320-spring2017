@@ -85,7 +85,7 @@ Create a free Oracle account and then download and install the appropriate versi
 
 Other Issues
 =========
-There are some other issues that have been popping up with CS320\_Lab02.
+There are some other issues that have been popping up with **CS320\_Lab02**.
 
 * For some unknown reason, the **CS320\_Lab02.zip** file might be protected, and Eclipse won't let you import it.  Let me know if this continues to happen - I think this is fixed with the latest ZIP file.
 

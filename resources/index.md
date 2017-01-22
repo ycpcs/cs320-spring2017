@@ -15,17 +15,21 @@ This page links to useful resources.
 
 Violet UML: [violetumleditor-2.1.0.jar](violetumleditor-2.1.0.jar)
 
-[Great Tutorial site for HTML, CSS, Java Script, SQL, PHP](http://www.w3schools.com)
+[CS320\_Derby.zip](CS320_Derby.zip) &mdash; Eclipse project with jarfiles for Apache Derby (relational database)
+
+[W3Schools: Great Tutorial site for HTML, CSS, Java Script, SQL, PHP](http://www.w3schools.com) - Go here first for HTML/CSS tutorials.
+
+[Bootstrap: A visual editor for creating web front-ends](http://www.w3schools.com/bootstrap/default.asp)
+
+[Brackets: A visual editor for working on HTML/CSS](http://brackets.io/)
 
 [Great Tutorial Site for Creating HTML Forms](http://www.htmliseasy.com/form_tutor/lesson01.html)
 
-[Great Tutorial site for JSP](http://www.tutorialspoint.com/jsp/index.htm)
+[Great Tutorial site for JSP](http://www.tutorialspoint.com/jsp/index.htm) - note that this references Apache Tomcat, but much of it should apply to Eclipse Jetty.
 
-[Creating and Using Session Information](http://www.tutorialspoint.com/jsp/jsp_session_tracking.htm)
+[Working with JSTL](http://www.tutorialspoint.com/jsp/jsp_standard_tag_library.htm) - linked from above site.
 
-[Working with JSTL](http://www.tutorialspoint.com/jsp/jsp_standard_tag_library.htm)
-
-[CS320\_Derby.zip](CS320_Derby.zip) &mdash; Eclipse project with jarfiles for Apache Derby (relational database)
+[Creating and Using Session Information](http://www.tutorialspoint.com/jsp/jsp_session_tracking.htm) - linked from above site.
 
 <!-- Commented out Library Example unitl after ORM Lab is complete
 [CS320\_Library\_Example\_With\_M2M.zip](CS320_Library_Example_With_M2M.zip) &mdash; Eclipse project that ties the [Web Applications Lab](../labs/lab03.html) together with the [ORM Lab](../labs/lab06.html).  This application places a web front-end on the SQL transactions from Lab06, as well as provides examples for creating a Derby database from CSV files, how to use session information after login, and how to use JSTL to display a list of complex objects in a JSP.  It has been updated to incorporate a many-to-many relationship between Books and Authors.  It also contains some example JUnit Tests for testing the Derby database queries.

@@ -8,7 +8,7 @@ This page lists some possible team project ideas.  I will expand this as project
 
 * [Personalized Commencement](Personalized_Commencement_Project.pdf) - not posted, yet
 
-* [Physical Model Website and Database](Physical_Model_Website_and_Database.pdf)
+* [Physical Model Website and Database](Physical_Model_Website_and_Database.pptx)
 
 * [Ted Talk Reviews](TED_Talk_Reviews_CS_Project.pdf)
 

@@ -7,7 +7,7 @@ Project Summary
 ===============
 A website and database that would allow graduating students to post personalized content to be presented at their commencement ceremony.  As students approached the stage, they would scan a card containing a QR code that would call up their commencement information.  That information would be retreived from the database, and formatted into a web page.  The web page could be displayed on monitors positioned throughout the commencement venue(s), as well as included in the live broadcast stream.  In addition, a recording of the student's name would be broadcast over the sound system.  The pronounciation of the student's name could be sourced from the student, or a parent, faculty memeber, or Yoda or Darth Vader or Stephen Hawking, or anybody else they could get to provide a recorded pronounciation of their name.
 
-The information for two students at a time could be shown on a split screen - thus giving each student about 10-15 seconds of total "air time".
+The information for two students at a time could be shown on a split screen - thus giving each student about 10-15 seconds of total "air time" while they crossed the stage.
 
 The content for each student could consist of:
 

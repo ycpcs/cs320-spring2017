@@ -11,4 +11,4 @@ From the academic side, students and faculty members could post solicitations fo
 
 From the industry side, individuals, groups, organizations, and businesses could match their available projects with the solicitations for projects from the academic side.  They could also post projects that they would like to have considered for development as part of a student-centered project.  Similar information would need to be posted about each project - a basic project proposal, the scope and scale of the project, a time-frame for its development, the technologies involved, the expected output, and contact information for the individual(s) proposing the project.
 
-Basic Features: account management, login, form(s) for posting projects, an administrative review and approval process, methods for searching for and reviewing proposals, etc.
+Basic Features: account management, login, form(s) for posting projects, an administrative review and approval process, methods for searching for and reviewing proposals.  Project postings could include various types of documents, pictures, video clips, etc.  It could be necessary to place specific access permissions on projects, as well.

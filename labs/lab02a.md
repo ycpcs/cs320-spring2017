@@ -20,7 +20,7 @@ You have five tasks:
 
 * After you have modified **AddNumbers** and created **MultiplyNumbers** and have them both completely working, create a common model class (**Numbers.java**) for **AddNumbers** and **MultiplyNumbers**, such that the numbers submitted through the HTTP request are stored in the model, along with the result.  You will need **get** and **set** accessor methods for all model fields, along with a constructor for the model class.  Look at the model for the **GuessingGame** WebApp as a template - and how that model is instantiated, initialized, and accessed.  The corresponding JSP's should pull the data directly from the **Numbers** model, rather than from the HTTP request.  Again you can look at the **GuessingGame** implementation to see how this is done.
 
-* As part of this exercise, you should also implement a complete set of test cases for the controller and model classes.  A significant portion of the effort on your team project will be creating an extensive and comprehensive set of JUnit test cases - **WHILE YOU ARE DEVELOPING THE PROJECT**.
+* As part of this exercise, you should also implement a complete set of test cases for the controller and model classes.  A significant portion of the effort on your team project will be creating an extensive and comprehensive set of JUnit test cases - **WHILE YOU ARE DEVELOPING YOUR TEAM PROJECT**.
 
 
 Submitting

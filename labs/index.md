@@ -8,7 +8,8 @@ This page lists the lab activities.  We will get started on these labs in class,
 Due Date | Lab | File
 ---- | --- | ----
 Sunday, January 22     | [Lab 1: HTML and CSS](lab01.html) | n/a
-Sunday, January 29     | [Lab 2: Web applications](lab02.html) | [CS320\_Jetty.zip](CS320_Jetty.zip), [CS320\_Lab02.zip](CS320_Lab02.zip)
+Sunday, January 29     | [Lab 2: Web Applications I](lab02.html) | [CS320\_Jetty.zip](CS320_Jetty.zip), [CS320\_Lab02.zip](CS320_Lab02.zip)
+Sunday, February 12    | [Lab 2a: Web Applications II](lab02a.html) | N/A
 Wednesday, February 22 | [Lab 3: Git](lab03.html) | n/a
 Tuesday, March 7       | [Lab 4: SQL, Queries, Joins](lab04.html) | [CS320\_Lab04.zip](CS320_Lab04.zip)
 Thursday, March 9      | [Lab 5: JDBC](lab05.html) | [CS320\_Lab05.zip](CS320_Lab05.zip)

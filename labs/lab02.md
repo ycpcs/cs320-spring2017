@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Lab 2: Guessing Game Webapp"
+title: "Lab 2: Web Applications I"
 ---
 
 Getting Started

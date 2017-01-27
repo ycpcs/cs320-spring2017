@@ -8,7 +8,7 @@ Your Task
 
 This lab builds upon the **AddNumbers** and **GuessingGame** examples from [CS320\_Lab02](lab02.html).  It will "force" you to investigate, explore, and learn the structure of a WebApp, from the server (**main()**), through **Web.xml**, the servlets, the controllers, the model, and the JSPs, as well as how to refactor an entire project space.  You will need to have this kind of familiarity with the WebApp architecture in order to get started on your team projects, as well as to be able to make significant technical contributions to any and all aspects of your team project.  
 
-**NOTE: This lab will required a significant effort, and you shoud start on it as soon as possible.**
+**NOTE: This lab will require a significant effort, and you should start on it as soon as possible.**
 
 You have five tasks:
 

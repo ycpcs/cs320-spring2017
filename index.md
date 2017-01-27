@@ -74,11 +74,14 @@ All information about the course will be posted here.
 * **Jan 26** - I've added links to the XP discussion questions (along with a summary of the XP material) to the schedule page.  Please review the XP reading assignments, keeping in mind the discussion questions (which are in bold).  We will likely not be able to cover all of those questions in class, but you should consider how you would answer them and be prepared to discuss them in class on Friday and Monday..
 
 --->
+
+* **Jan 27** - [Lab 2a: Web Applications II](labs/lab02a.html) is posted.  It is **due Sunday, 2-12-17**
+
 * **Jan 25** - Please see the **Projects** page for possible team project ideas.
 
-* **Jan 23** - Lab02: Web Applications **due Sunday, 1-29-17**
+* **Jan 23** - Lab02: Web Applications I **due Sunday, 1-29-17**
 
-* **Jan 23** - [Lab 2: Web Applications](labs/lab02.html) is posted.  Please also see the [WebApps Notes](labs/lab02_notes.html) for additional information about setting up the lab.
+* **Jan 23** - [Lab 2: Web Applications I](labs/lab02.html) is posted.  Please also see the [WebApps Notes](labs/lab02_notes.html) for additional information about setting up the lab.
 
 * **Jan 23** - [Assignment 4](assign/assign04.html) describes the expectations for the individual project milestones.
 

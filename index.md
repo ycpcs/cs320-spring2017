@@ -65,15 +65,9 @@ All information about the course will be posted here.
 
 * **Feb 10** - The [Activities](activities.html) page links to the results of in-class activities.
 
-* **Feb 1** - [Assignment 5](assign/assign05.html) is due Wednesday, Feb 10th by 11:59 PM.
-
-* **Feb 1** - I've added a link in [Assignment 2](assign/assign02.html) for a suggested format for the Individual Project Proposal.  Please follow that basic format for your submission.
-
-* **Feb 1** - [Assignment 2](assign/assign02.html) is due Friday, Feb 5th by 11:59 PM.
-
-* **Jan 26** - I've added links to the XP discussion questions (along with a summary of the XP material) to the schedule page.  Please review the XP reading assignments, keeping in mind the discussion questions (which are in bold).  We will likely not be able to cover all of those questions in class, but you should consider how you would answer them and be prepared to discuss them in class on Friday and Monday..
-
 --->
+
+* **Feb 3** - [Assignment 5](assign/assign05.html) is **due Friday, 2-12-17**
 
 * **Jan 27** - [Lab 2a: Web Applications II](labs/lab02a.html) is posted.  It is **due Sunday, 2-12-17**
 
@@ -87,7 +81,7 @@ All information about the course will be posted here.
 
 * **Jan 23** - [Assignment 3](assign/assign03.html) describes the expectations for the team project milestones.
 
-* **Jan 22** - Assign02 - Individual Project Proposal **due date moved to Sunday, 2-4-17**
+* **Jan 22** - Assign02 - Individual Project Proposal **due date moved to Sunday, 2-5-17**
 
 * **Jan 22** - Assign01 - Team Project Proposal **due date moved to Sunday, 1-29-17**
 

@@ -67,7 +67,7 @@ All information about the course will be posted here.
 
 --->
 
-* **Feb 3** - [Assignment 5](assign/assign05.html) is **due Friday, 2-12-17**
+* **Feb 3** - [Assignment 5](assign/assign05.html) is **due Sunday, 2-12-17**
 
 * **Jan 27** - [Lab 2a: Web Applications II](labs/lab02a.html) is posted.  It is **due Sunday, 2-12-17**
 

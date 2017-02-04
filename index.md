@@ -13,12 +13,13 @@ All information about the course will be posted here.
 * [Syllabus](syllabus.html)
 * [Schedule](schedule.html)
 * [Calendar](CS320-Spring2017Calendar.pdf)
-* [Resources](resources/index.html)
+* [Teams and Rosters](teams-and-rosters/index.html)
 * [Assignments](assign/index.html)
 * [Labs](labs/index.html)
 * [Projects](projects/index.html)
-* [Marmoset (submission server)](https://cs.ycp.edu/marmoset)
+* [Resources](resources/index.html)
 * [Activities](activities.html)
+* [Marmoset (submission server)](https://cs.ycp.edu/marmoset)
 
 <!-- Commented out Practice Exams, since we did take home exams.
 * [Practice Exams](practice/index.html)

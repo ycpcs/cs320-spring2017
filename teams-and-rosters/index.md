@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Teams and Rosters"
+title: "Project Teams and Rosters"
 ---
 
 [Project Teams](CS320_ProjectTeams_Spring2017.pdf)

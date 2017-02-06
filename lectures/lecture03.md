@@ -90,16 +90,17 @@ Extensions (alternate paths):
 		.2: Customer may cancel purchase
 	
 
-**Let's work an example: Automated Teller Machine (ATM):**
+**Let's work an example: Uber (Ride Sharing App):**
 
 -	Who are the possible actors?
 
 <!-- commenting out the answers
 
 -   Customer
--   Bank system (this is software, but it is external to the ATM system, so it's considered an actor)
--   Bank employee who adds cash, collects deposits, etc.
--	Service technician, installs, repairs, replaces, etc.
+-   Uber App on smartphone
+-   Uber system (this is software, but it is external to the Customer and the App, so it is considered an actor)
+-   Uber Driver
+-   Credit Card company (authorizes payments)
 
 --->
 
@@ -107,22 +108,24 @@ Extensions (alternate paths):
 
 <!-- commenting out the answers
 
--   customers can access their accounts (withdraw, deposit, check balance, etc.)
+-   customers can set up accounts (username, password, credit card info)
+-   drivers can enroll: set up account (username, password, vehicle, bank info)
+-   customers credit card gets charged (must be valid)
+-   driver receives payment via direct deposit, or Paypal, etc...
 -   the system is secure (only authorized users can use)
--	remote access to/from bank
--	integrated security system
+-   rating system (customers and drivers can post)
 -   etc.
 
 --->
 
--	 What are some scenarios in which the ATM system is used?
+-	 What are some scenarios in which Uber is used?
 
 <!-- commenting out the answers
 
--   withdrawal
--   deposit
--   check balance
--   stock with cash
+-   customer requests a ride
+-   drivers post availability
+-   driver picks up additional passengers - reduces fare
+-   customer schedules ride in advance
 -   etc.
 
 --->

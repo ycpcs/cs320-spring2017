@@ -41,7 +41,7 @@ So, our "Player takes a turn" use case for TicTacToe might look like this:
 
 Note that TicTacToe is a pretty simple example: for a more complex problem, a use case might be be more involved.
 
-You should write *as many use cases as necessary* to document the important behaviors of your system, as experienced by the relevant actors.
+**You should write *as many use cases as necessary* to document the important behaviors of your system, as experienced by the relevant actors.**
 
 **Use the example format given in the [Use Case lecture](../lectures/lecture03.html) for the Use Cases you provide for this submission.**
 

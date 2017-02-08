@@ -43,9 +43,11 @@ Note that TicTacToe is a pretty simple example: for a more complex problem, a us
 
 You should write *as many use cases as necessary* to document the important behaviors of your system, as experienced by the relevant actors.
 
+**Use the example format given in the [Use Case lecture](../lectures/lecture03.html) for the Use Cases you provide for this submission.**
+
 # Submitting your work
 
-Create a Google Doc for your group's Use Case document, and name it **assign05-www-xxx-yyy-zzz**, substituting the YCP User IDs of your project team members.  Place the Use Case document under your shared Google Drive Group Project folder.
+Create a Google Doc for your group's Use Case document, and name it **assign05-www-xxx-yyy-zzz**, substituting the YCP User names of your project team members.  Place the Use Case document under your shared Google Drive Group Project folder.
 
 <div class="callout">
 <b>Important</b>: Your submission <i>must</i> be a Google Doc, shared via your Group Project folder.

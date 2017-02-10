@@ -36,4 +36,4 @@ The classes which are part of the analysis model are often referred to as the "o
 In-class activity
 =================
 
-Analysis model for online auction.
+Analysis model for Uber (ride-sharing app and system).  We will work from a common set of scenarios, requirements, and use cases.

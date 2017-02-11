@@ -60,13 +60,13 @@ All information about the course will be posted here.
 
 * **Feb 17** - By (nearly) unanimous vote, exam 1 will be a take-home exam.  Exam 1 will be handed out in class on Friday, 2-26-16, and will be due at the start of class on Wednesday, March 9th.  Since this is a take-home exam, a practice exam will not be provided.
 
-* **Feb 10** - [Assignment 6](assign/assign06.html) is due Monday, Feb 22nd by 11:59 PM.
-
-* **Feb 10** - For the in-class presentations of your group's work-in-progress analysis models on Monday (2-15): please use [Violet UML](http://alexdp.free.fr/violetumleditor/page.php) to create a nicely-formatted electronic version of your team's model.  You can download the jarfile from the [Resources](resources/index.html) page.
-
 * **Feb 10** - The [Activities](activities.html) page links to the results of in-class activities.
 
 --->
+
+* **Feb 10** - [Assignment 6](assign/assign06.html) is due Thursday, 2-23-17.
+
+* **Feb 10** - For the in-class presentations of your group's work-in-progress analysis models on Friday (2-17): please use [Violet UML](http://alexdp.free.fr/violetumleditor/page.php) to create a nicely-formatted electronic version of your team's model.  You can download the jarfile from the [Resources Page](resources/index.html).
 
 * **Feb 3** - [Assignment 5](assign/assign05.html) is **due Sunday, 2-12-17**
 

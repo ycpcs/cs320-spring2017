@@ -36,11 +36,11 @@ Mar 6 | SQL Databases (and SQL Lab) | [Lecture 9: Relational Databases](lectures
 Mar 8 | Database Applications - JDBC (and JDBC Lab) | [Lecture 10: Database Applications, JDBC](lectures/lecture10.html)<br> [Lab 5: JDBC Lab](./labs/lab05.html) 
 Mar 10 | Database Applications - ORM (and ORM Lab) | [Lecture 11: ORM, Designing a Persistence Layer](lectures/lecture11.html)<br> [Lab 6: ORM Lab](./labs/lab06.html)
 Mar 13 | SQL / JDBC / ORM Labs / In-class team project work
-Mar 15 | Testing, code coverage | [Lecture 12: Testing](lectures/lecture12.html)
+Mar 15 | Scrum/Agile: BD Guest Lecturer(s)
 Mar 17 | Team Project Session (in class)
 Mar 20 | Team Project Milestone 1:<br> **Minimal Working System** | [Assignment 3: Team Project Milestones](assign/assign03.html)
 Mar 22 | Plant Tour @ Red Lion Controls<br>OR<br>Team Project Session (in class)
-Mar 24 | Team Project Session (in class)
+Mar 24 | Testing, code coverage | [Lecture 12: Testing](lectures/lecture12.html)
 Mar 27 | Individual Project Milestone 1:<br> **Baseline Prototype** | [Assignment 4: Individual Project Milestones](assign/assign04.html)
 Mar 29 | Ensuring Code Quality | [Lecture 13: Ensuring Code Quality](lectures/lecture13.html)
 Mar 31 | Team Project Session (in class)

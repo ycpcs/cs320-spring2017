@@ -14,7 +14,7 @@ Assignment | Type | Due
 [Assignment 3: Team Project Milestones](assign03.html) | Team | Multiple (see description)
 [Assignment 4: Individual Project Milestones](assign04.html) | Individual | Multiple (see description)
 [Assignment 5: Use cases](assign05.html) | Team | Sun, Feb 12th by 11:59 PM
-[Assignment 6: Problem domain analysis](assign06.html) | Team | Sun, Feb 19th by 11:59 PM
+[Assignment 6: Problem domain analysis](assign06.html) | Team | Thu, Feb 23rd by 11:59 PM
 [Assignment 8: Team Project Code and Report](assign08.html) | Team | Mon, May 8th by 11:59 PM
 [Assignment 8: Team Project Presentation and Demo](assign08.html) | Team | Wed, May 10th (Final Exam Period)
 [Assignment 9: Individual Project Deliverables](assign09.html) | Individual | Fri, May 5th by 11:59 PM

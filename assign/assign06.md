@@ -40,7 +40,7 @@ In a text document of 1 page, *briefly* explain your analysis model. Discuss why
 Example: 
 --------
 
-Here is an [example submission](assign06_csperbec_asmit147_awalsh6.pdf) for this assignment from the Distributed Whiteboard Project completed in 2016 by Cara Sperbeck, Alex Smith, and Aaron Walsh.
+Here is an [example submission](assign06-csperbec-asmit147-awalsh6.pdf) for this assignment from the Distributed Whiteboard Project completed in 2016 by Cara Sperbeck, Alex Smith, and Aaron Walsh.
 
 Submitting
 ==========

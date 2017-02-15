@@ -37,6 +37,11 @@ Step 3: Explain the Model
 
 In a text document of 1 page, *briefly* explain your analysis model. Discuss why you felt the classes you modeled are the most important ones. Is there a class or classes that seem to be "central" to the model? How did you determine where to put the important methods?
 
+Example: 
+--------
+
+Here is an [example submission](assign06_csperbec_asmit147_awalsh6.pdf) for this assignment from the Distributed Whiteboard Project completed in 2016 by Cara Sperbeck, Alex Smith, and Aaron Walsh.
+
 Submitting
 ==========
 

@@ -26,23 +26,23 @@ Feb 10 | UML, OO Analysis | UD: Chapter 3, [Lecture 4: UML Class Diagrams](lectu
 Feb 13 | OO Analysis Exercise | 
 Feb 15 | Team Project Session: project analysis model (in class)
 Feb 17 | Analysis Model Presentations and Discussion
-Feb 20 | Version Control | [Git for Designers](https://web.archive.org/web/20150301060509/http://hoth.entp.com/output/git_for_designers.html)
-Feb 22 | Version Control Lab |  [Lab 3: Git Lab](./labs/lab03.html)
-Feb 24 | OO Design | [Lecture 6: OO Design, OCP, LSP](lectures/lecture06.html), Robert Martin, [Design Principles and Design Patterns](lectures/lecture06/Principles_and_Patterns.pdf), pages 1-12
+Feb 20 | OO Design | [Lecture 6: OO Design, OCP, LSP](lectures/lecture06.html), Robert Martin, [Design Principles and Design Patterns](lectures/lecture06/Principles_and_Patterns.pdf), pages 1-12
+Feb 22 | Testing, code coverage | [Lecture 12: Testing](lectures/lecture12.html)
+Feb 24 | Ensuring Code Quality | [Lecture 13: Ensuring Code Quality](lectures/lecture13.html)
 Feb 27 | **Winter Break, no class**
 Mar 1 | **Winter Break, no class**
 Mar 3 | **Winter Break, no class**
-Mar 6 | SQL Databases (and SQL Lab) | [Lecture 9: Relational Databases](lectures/lecture09.html)<br> [Lab 4: SQL Lab](./labs/lab04.html)
-Mar 8 | Database Applications - JDBC (and JDBC Lab) | [Lecture 10: Database Applications, JDBC](lectures/lecture10.html)<br> [Lab 5: JDBC Lab](./labs/lab05.html) 
-Mar 10 | Database Applications - ORM (and ORM Lab) | [Lecture 11: ORM, Designing a Persistence Layer](lectures/lecture11.html)<br> [Lab 6: ORM Lab](./labs/lab06.html)
-Mar 13 | SQL / JDBC / ORM Labs / In-class team project work
-Mar 15 | Testing, code coverage | [Lecture 12: Testing](lectures/lecture12.html)
-Mar 17 | Scrum/Agile: BD Guest Lecturer(s)
+Mar 6 | Version Control | [Git for Designers](https://web.archive.org/web/20150301060509/http://hoth.entp.com/output/git_for_designers.html)
+Mar 8 | Version Control Lab |  [Lab 3: Git Lab](./labs/lab03.html)
+Mar 10 | Scrum/Agile: BD Guest Lecturer(s)
+Mar 13 | SQL Databases (and SQL Lab) | [Lecture 9: Relational Databases](lectures/lecture09.html)<br> [Lab 4: SQL Lab](./labs/lab04.html)
+Mar 15 | Database Applications - JDBC (and JDBC Lab) | [Lecture 10: Database Applications, JDBC](lectures/lecture10.html)<br> [Lab 5: JDBC Lab](./labs/lab05.html) 
+Mar 17 | Team Project Session (in class)
 Mar 20 | Team Project Milestone 1:<br> **Minimal Working System** | [Assignment 3: Team Project Milestones](assign/assign03.html)
 Mar 22 | Plant Tour @ Red Lion Controls<br>OR<br>Team Project Session (in class)
-Mar 24 | Ensuring Code Quality | [Lecture 13: Ensuring Code Quality](lectures/lecture13.html)
+Mar 24 | Database Applications - ORM (and ORM Lab) | [Lecture 11: ORM, Designing a Persistence Layer](lectures/lecture11.html)<br> [Lab 6: ORM Lab](./labs/lab06.html)
 Mar 27 | Individual Project Milestone 1:<br> **Baseline Prototype** | [Assignment 4: Individual Project Milestones](assign/assign04.html)
-Mar 29 | Team Project Session (in class)
+Mar 29 | SQL / JDBC / ORM Labs / In-class team project work
 Mar 31 | Team Project Session (in class)
 Apr 3 | Team Project Milestone 2:<br> **Progress on Features** | [Assignment 3: Team Project Milestones](assign/assign03.html)
 Apr 5 | Team Project Session (in class)

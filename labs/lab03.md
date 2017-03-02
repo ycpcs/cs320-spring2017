@@ -42,7 +42,7 @@ To generate the SSH key:
     
 When prompted, enter the following path and file name for the SSH key, otherwise the key will be stored at **C:/Users/username/.ssh** drive of the lab computer you are working on and will not be available on other lab computers:
 
-    **/cygdrive/h/.ssh/id_rsa**.
+    /cygdrive/h/.ssh/id_rsa
 
 That will store your SSH key in the **.ssh** directory on your home drive.  If you are working on your own PC, you will likely need to use a different drive letter, as you might not have an **H:** drive.  Note the location where you stored the SSH key.
 

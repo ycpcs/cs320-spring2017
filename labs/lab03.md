@@ -47,6 +47,8 @@ When prompted for a passphrase, just press enter (twice).
 Again, if you are working on a lab computer, execute this command (which tells Eclipse where to find the SSH key):
 
     set Eclipse SSH2 home to H:\.ssh
+    
+If you are working on your own PC, replace the above path with the path you specified when creating your SSH key.
 
 
 ## Step 2: Create a GitHub Account

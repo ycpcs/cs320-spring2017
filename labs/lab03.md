@@ -132,7 +132,7 @@ You can choose where you want to store the local repository: if using your lapto
 
 In Eclipse, click **Next** twice and then **Finish**.
 
-Next, in Eclipse, choose the **Java** perspective.  Choose **File &rarr; Import... &rarr; Git &rarr; Projects from Git &rarr; Existing local respository**.  Select the **MoveTheSquare** repository and click **Next**.  Click **Next** two more times, then click **Finish**.  You should now have a **MoveTheSquare** project in your Eclipse workspace that is connected to your public repository (the fork you created in Step 4).
+Next, in Eclipse, choose the **Java** perspective.  Choose **File &rarr; Import... &rarr; Git &rarr; Projects from Git**, followed by **Existing local repository**.  Select the **MoveTheSquare** repository and click **Next**.  Click **Next** two more times, then click **Finish**.  You should now have a **MoveTheSquare** project in your Eclipse workspace that is connected to your public repository (the fork you created in Step 4).
 
 To test that you can pull from your remote repository, right click on "Move the Square", and select **Team &rarr; Pull** and you'll get a message box titled "Pull Result for MoveTheSquare" that says that everything is up-to-date.
 

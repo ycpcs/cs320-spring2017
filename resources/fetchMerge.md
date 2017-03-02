@@ -29,7 +29,7 @@ Here is how to get changes from a team member.
 Configure a remote
 ------------------
 
-First, if you have not already done so, you will need to add your team member's public repository as a remote. From the **Window** menu, choose **Open Perspective** → **Other** → **Git Repository Exploring**. In the "Git Repositories" view, expand the item for your repository, and then expand the **Remotes** item. Right-click on **Remotes** and choose **Create Remote**. For the remote name, use the username of your team member. Make sure **Configure fetch** is selected (*not* "Configure push"). The dialog should look something like this:
+First, if you have not already done so, you will need to add your team member's public repository as a remote. Select the Git perspective in Eclipse.  In the "Git Repositories" view, expand the item for your repository, and then expand the **Remotes** item. Right-click on **Remotes** and choose **Create Remote**. For the remote name, use the username of your team member. Make sure **Configure fetch** is selected (*not* "Configure push"). The dialog should look something like this:
 
 > ![image](figures/newRemote.png)
 

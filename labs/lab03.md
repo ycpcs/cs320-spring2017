@@ -95,9 +95,7 @@ The repository you just forked contains an Eclipse project called **MoveTheSquar
 
 Start Eclipse.  Choose **Window &rarr; Preferences &rarr;** to open the preferences dialog.
 
-If you are using your own computer, and not using your YCP home drive (H:), do the following:
-
-> Choose **General &rarr; Network Connections &rarr; SSH2**.  Make sure that **SSH2 home** is set to the path on your C: drive that leads to your **/.ssh** folder (include **/.ssh** in the path). Also verify that **Private keys** is set to the name of your private key file.  Select OK when done.
+> Choose **General &rarr; Network Connections &rarr; SSH2**.  Make sure that **SSH2 home** is set to the drive and path that lead to your **/.ssh** folder (include **/.ssh** in the path). For lab PC's, this should be **H:/.ssh**.  Select OK when done.  Also verify that **Private keys** is set to the name of your private key file.  
 
 Next, choose **Team &rarr; Git &rarr; Configuration**.  Use **Add Entry...** to create the following configuration entries:
 

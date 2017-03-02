@@ -29,21 +29,18 @@ Like [OO Analysis](../lectures/lecture05.html), Git proficiency is a software de
 
 ## Step 1: Create an SSH keypair
 
-Execute the following commands in a Cygwin (Windows) or Linux terminal window:
+Execute the following commands in a Cygwin (Windows) or Linux terminal window, which take you to your home **(H:)** drive, and then lists the contents of the **.ssh** directory (if it already exists):
 
-	ls ~/.ssh
+	cd h:
+    ls ssh
 
 If this command shows the files **id\_rsa** and **id\_rsa.pub**, then you can continue to Step 2.  Otherwise, execute the following command:
-
-If you are working on a lab computer, execute this command (which causes the SSH key to be stored on your home drive):
-
-    export HOME=/cygdrive/h
 
 To generate the SSH key:
 
 	ssh-keygen -t rsa -b 2048
     
-Enter the file name for the SSH key.  Note the path of where the key is being stored.
+Enter the following path and file name for the SSH key: **/cygdrive/h/.ssh/id_rsa**  That will store your SSH key in the **.ssh** directory on your home drive.  If you are working on your own PC, you will likely need to use a different drive letter, as you might not have an **H:** drive.  Note the location where you stored the SSH key.
 
 When prompted for a passphrase, just press enter (twice).
 

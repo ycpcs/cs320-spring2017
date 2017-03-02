@@ -154,7 +154,9 @@ Once you have made a change, right-click on the **Move The Square** project and 
 
 Next, right-click on **Move The Square** and choose **Team &rarr; Push** or **Team &rarr; Push Branch**.
 
-A window for **Push to branch in remote" will appear.  You should see your comments displayed near the top, along with "master".  Select **Next**.  You will get the **Push Confirmation** window.  Select **Finish**.  If the push succeeds, you should be able to refresh your GitHub repository web pages and see the commit you just made.
+A window for **Push to branch in remote" will appear.  You should see your comments displayed near the top, along with "master".  Select **Next**.  You will get the **Push Confirmation** window.  Select **Finish**.  If the push succeeds, you will see **Pushed to git@github.com:...**.  Select **OK**.
+
+You should now be able to refresh your GitHub repository web pages and see the commit you just made.
 
 ## Step 9: Fetch and merge changes from other people
 

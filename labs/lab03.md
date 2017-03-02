@@ -40,7 +40,7 @@ To generate the SSH key:
 
 	ssh-keygen -t rsa -b 2048
     
-When prompted, enter the following path and file name for the SSH key, otherwise the key will be stored at **C:/Users/username/.ssh** of the lab computer you are working on and will not be available on other lab computers:
+When prompted, enter the following path and file name for the SSH key, otherwise the key will be stored at **C:/Users/username/.ssh** drive of the lab computer you are working on and will not be available on other lab computers:
 
     **/cygdrive/h/.ssh/id_rsa**.
 

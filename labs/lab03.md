@@ -150,7 +150,7 @@ Make some changes to the code:
 
 ## Step 8: Commit and push your changes
 
-Once you have made a change, right-click on the **Move The Square** project and choose **Team &rarr; Commit**.  Enter a log message describing your changes.
+Once you have made a change, right-click on the **Move The Square** project and choose **Team &rarr; Commit**.  Enter a log message describing your changes.  Select **Commit**.  This commits your changes to your local repository, but does not yet push (send) them to your remote repository at GitHub.
 
 Next, right-click on **Move The Square** and choose **Team &rarr; Push** or **Team &rarr; Push Branch**.
 

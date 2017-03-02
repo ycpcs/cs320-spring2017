@@ -113,7 +113,7 @@ Use appropriate values for *your email* and *your name*. If you would prefer not
 Also note the following:
 
 <div class="callout">
-First, make sure that you spell everything correctly.  Eclipse will **NOT** point out any "errors", since you are specifying these keys and values.
+First, make sure that you spell everything correctly.  Eclipse will **NOT** point out any "errors", since you are specifying these keys and values.  Then press **Apply**.
 
 It is <i>extremely</i> important that you set the <b>core.autocrlf</b> setting to <b>true</b>.  If you do not do this, you will experience horrible problems when you try to synchronize your work with your teammates' work.  You will also incur my wrath.  Do not incur my wrath.
 </div>

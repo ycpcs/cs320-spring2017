@@ -138,7 +138,7 @@ To test that you can pull from your remote repository, right click on "Move the 
 
 ## Step 7: Make changes
 
-You can run the program by right clicking on **GameView** and choosing **Run As &rarr; Java Application**.
+You can run the program from **src &rarr; edu.ycp.cs320.movethesquare.ui &rarr;** right clicking on **GameView** and choosing **Run As &rarr; Java Application**.
 
 Make some changes to the code:
 

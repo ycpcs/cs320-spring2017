@@ -158,6 +158,8 @@ A window for **Push to branch in remote" will appear.  You should see your comme
 
 You should now be able to refresh your GitHub repository web pages and see the commit you just made.
 
+In GitHub, if you click on "MoveTheSquare" you can explore and see all of the changes that have been made to the files in the project.  You can even view the code in GitHub. You will want to familiarize yourself with the GitHub interface for future use while developing our project.
+
 ## Step 9: Fetch and merge changes from other people
 
 Refer to the [Fetch/Merge](../resources/fetchMerge.html) document for instructions on how to set up remote tracking branches to track the changes made by other people.

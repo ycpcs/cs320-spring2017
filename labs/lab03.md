@@ -71,15 +71,15 @@ Verify your email address.
 
 Log into [GitHub](https://github.com).
 
-Click on the **View Profile** icon in the top right of the page (it looks like a green square sitting on a green table.)
+Click on the **Profile** icon in the top right of the page (it looks like a green square sitting on a green table.)
 
 Click on **Settings** in the dropdown list.
 
-Click on the **SSH keys** item about halfway down the the left side, in the Personal settings column.
+Click on the **SSH and GPG keys** item about 1/3 down the left side, in the **Personal settings** column.
 
 Click the **New SSH key** button at the top right of the SSH Keys list.
 
-Enter "YCP" as the title.  In a text editor **Notepad++** or **Accessories &rarr; Text Editor**, open the file **.ssh/id\_rsa.pub**.  Copy the entire text in this file, and paste it into the Key textbox.  Then press the **Add SSH key** button.  You might need to enter the password for your GitHub account.
+Enter "YCP" as the title.  In a text editor **Notepad++** or **Accessories &rarr; Text Editor**, open the file **.ssh/id\_rsa.pub**.  Copy the entire text in this file, and paste it into the **Key** textbox.  Then press the **Add SSH key** button.  You might need to enter the password for your GitHub account.
 
 ## Step 4: Fork
 

@@ -40,7 +40,11 @@ To generate the SSH key:
 
 	ssh-keygen -t rsa -b 2048
     
-Enter the following path and file name for the SSH key: **/cygdrive/h/.ssh/id_rsa**  That will store your SSH key in the **.ssh** directory on your home drive.  If you are working on your own PC, you will likely need to use a different drive letter, as you might not have an **H:** drive.  Note the location where you stored the SSH key.
+When prompted, enter the following path and file name for the SSH key, otherwise the key will be stored at **C:/Users/username/.ssh** of the lab computer you are working on and will not be available on other lab computers:
+
+    **/cygdrive/h/.ssh/id_rsa**.
+
+That will store your SSH key in the **.ssh** directory on your home drive.  If you are working on your own PC, you will likely need to use a different drive letter, as you might not have an **H:** drive.  Note the location where you stored the SSH key.
 
 When prompted for a passphrase, just press enter (twice).
 
@@ -55,7 +59,7 @@ If you are working on your own PC, replace the above path with the path you spec
 
 If you don't already have a GitHub account, go to [GitHub](https://github.com).
 
-Pick a username, enter a valid email address (I suggest your YCP address), and select a password.
+Pick a username, enter a valid email address (I strongly suggest your YCP address), and select a password.
 
 Select "Sign up for GitHub".
 

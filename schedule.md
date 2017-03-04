@@ -34,7 +34,7 @@ Mar 1 | **Winter Break, no class**
 Mar 3 | **Winter Break, no class**
 Mar 6 | Version Control | [Git for Designers](https://web.archive.org/web/20150301060509/http://hoth.entp.com/output/git_for_designers.html)
 Mar 8 | Version Control Lab |  [Lab 3: Git Lab](./labs/lab03.html)
-Mar 10 | Scrum/Agile: BD Guest Lecturer(s)
+Mar 10 | Scrum/Agile: BD Guest Lecturer<br> Glen Davis - Senior Manager, SW Engineering
 Mar 13 | SQL Databases (and SQL Lab) | [Lecture 9: Relational Databases](lectures/lecture09.html)<br> [Lab 4: SQL Lab](./labs/lab04.html)
 Mar 15 | Database Applications - JDBC (and JDBC Lab) | [Lecture 10: Database Applications, JDBC](lectures/lecture10.html)<br> [Lab 5: JDBC Lab](./labs/lab05.html) 
 Mar 17 | Team Project Session (in class)

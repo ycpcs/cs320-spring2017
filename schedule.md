@@ -45,17 +45,17 @@ Mar 27 | Individual Project Milestone 1:<br> **Baseline Prototype** | [Assignmen
 Mar 29 | SQL / JDBC / ORM Labs / In-class team project work
 Mar 31 | Team Project Session (in class)
 Apr 3 | Team Project Milestone 2:<br> **Progress on Features** | [Assignment 3: Team Project Milestones](assign/assign03.html)
-Apr 5 | Team Project Session (in class)
+Apr 5 | **MID-TERM EXAM** (in class)
 Apr 7 | Team Project Session (in class)
 Apr 10 | Individual Project Milestone 2:<br> **33% Progress** | [Assignment 4: Individual Project Milestones](assign/assign04.html)
-Apr 12 | **MID-TERM EXAM**
+Apr 12 | Team Project Session (in class)
 Apr 14 | **Spring Break, no class**
 Apr 17 | **Spring Break, no class**
-Apr 19 | Team Project Milestone 3:<br> **50% Working System** | [Assignment 3: Team Project Milestones](assign/assign03.html)
-Apr 21 | Team Project Session (in class)
+Apr 19 | Team Project Session (in class)
+Apr 21 | Team Project Milestone 3:<br> **50% Working System** | [Assignment 3: Team Project Milestones](assign/assign03.html)
 Apr 24 | Individual Project Milestone 3:<br> **67% Progress** | [Assignment 4: Individual Project Milestones](assign/assign04.html)
-Apr 26 | TBD or Team Project Session (in class)
-Apr 28 | TBD or Team Project Session (in class)
+Apr 26 | Team Project Session (in class)
+Apr 28 | Team Project Session (in class)
 May 1 | Team Project Milestone 4:<br> **95% Working System** | <br>[Assignment 3: Team Project Milestones](assign/assign03.html)
 May 3 | **Last Class**<br>Individual Project Milestone 4:<br> **FINAL PROJECT DEMOS** | [Assignment 4: Individual Project Milestones](assign/assign04.html)
 May 5 | **Finals week, no class**<br>Individual Project Code & Report Due  | [Assignment 9: Individual Project Deliverables](assign/assign09.html)

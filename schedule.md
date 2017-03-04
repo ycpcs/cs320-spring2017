@@ -42,7 +42,7 @@ Mar 20 | Team Project Milestone 1:<br> **Minimal Working System** | [Assignment 
 Mar 22 | Plant Tour @ Red Lion Controls<br>OR<br>Team Project Session (in class)
 Mar 24 | Database Applications - ORM (and ORM Lab) | [Lecture 11: ORM, Designing a Persistence Layer](lectures/lecture11.html)<br> [Lab 6: ORM Lab](./labs/lab06.html)
 Mar 27 | Individual Project Milestone 1:<br> **Baseline Prototype** | [Assignment 4: Individual Project Milestones](assign/assign04.html)
-Mar 29 | SQL / JDBC / ORM Labs / In-class team project work
+Mar 29 | SQL / JDBC / ORM Labs<br> In-class team project work
 Mar 31 | Team Project Session (in class)
 Apr 3 | Team Project Milestone 2:<br> **Progress on Features** | [Assignment 3: Team Project Milestones](assign/assign03.html)
 Apr 5 | **MID-TERM EXAM** (in class)

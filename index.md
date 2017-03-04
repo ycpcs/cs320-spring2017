@@ -54,11 +54,11 @@ All information about the course will be posted here.
 
 * **Mar 23** - [Team Project Milestone 2](assign/assign03.html) is due Friday, April 1st.  This will be a 10-minute (max) in-class team presentation/demonstration of your team's progress since milestone 1.  SQL database functionality is not required for this milestone (but *is* required for the third.)
 
-* **Mar 7** - [Assignment 4: Individual Project Milestones](assign/assign04.html) has been updated.  Specifically, **Milestone 1: Baseline** is now due on Wednesday, March 23rd.
-
-* **Mar 7** - [Assignment 3: Team Project Milestones](assign/assign03.html) has been updated.  Specifically, **Milestone 1: Minimal Working System** is now due on Monday, March 21st.
-
 --->
+
+* **Mar 4** - [Assignment 4: Individual Project Milestones](assign/assign04.html) **Milestone 1: Baseline** is due on Monday, March 27th.  This will be a 3-4 minute in-class demonstration of your progress, to date.
+
+* **Mar 4** - [Assignment 3: Team Project Milestones](assign/assign03.html) **Milestone 1: Minimal Working System** is due on Monday, March 21st.    This will be an 8-10 minute (max) in-class team presentation/demonstration of your team's progress on your UI structure and navigation.  You should have the vast majority of your servlets and JSPs defined, and be able to navigate between most, if not all, of your pages.  Your HTML/CSS will still be in a rough state - don't worry about making it "pretty", focus on functionality over form.
 
 * **Feb 21** - [Assignment 6](assign/assign06.html) due date has been moved to Saturday, 2-25-17.
 

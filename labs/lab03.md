@@ -128,9 +128,9 @@ In the GitHub web page for the repository fork you created in Step 4, click on "
 
 In GitHub, select **SSH**, and then click the **"copy to clipboard"** button to the right of the SSH URL and paste it into the **URI** tab of the Eclipse **Clone Git Repository** dialog.
 
-You can choose where you want to store the local repository: if using your laptop, store it locally on your hard drive; if using a lab PC, store it on H:/ (your home drive).
+In Eclipse, click **Next** twice.
 
-In Eclipse, click **Next** twice and then **Finish**.
+The **Local Destination** window will now appear in Eclipse.  You can choose where you want to store the local repository: if using your laptop, store it locally on your hard drive; if using a lab PC, store it on H:/ (your home drive).   After you have specified a storage location, click **Finish**.
 
 Next, in Eclipse, choose the **Java** perspective.  Choose **File &rarr; Import... &rarr; Git &rarr; Projects from Git**, followed by **Existing local repository**.  Select the **MoveTheSquare** repository and click **Next**.  Click **Next** two more times, then click **Finish**.  You should now have a **MoveTheSquare** project in your Eclipse workspace that is connected to your public repository (the fork you created in Step 4).
 

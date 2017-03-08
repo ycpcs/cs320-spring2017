@@ -32,7 +32,7 @@ Like [OO Analysis](../lectures/lecture05.html), Git proficiency is a software de
 Execute the following commands in a Cygwin (Windows) or Linux terminal window, which take you to your home **(H:)** drive, and then lists the contents of the **.ssh** directory (if it already exists):
 
 	cd h:
-    ls ssh
+    ls .ssh
 
 If this command shows the files **id\_rsa** and **id\_rsa.pub**, then you can continue to Step 2.  Otherwise, execute the following command:
 
@@ -40,11 +40,13 @@ To generate the SSH key:
 
 	ssh-keygen -t rsa -b 2048
     
-When prompted, enter the following path and file name for the SSH key, otherwise the key will be stored at **C:/Users/username/.ssh** on the lab computer you are working on and will not be available to you on other lab computers:
+When prompted to enter the file in whic to save the key, enter the following path and file name for the SSH key, otherwise the key will be stored at **C:/Users/username/.ssh** on the lab computer you are working on and will not be available to you on other lab computers:
 
-    /cygdrive/h/.ssh/id_rsa
+    Generating public/private rsa key pair.
+    Enter file in which to save the key (/home/username/.ssh/id_rsa): **/cygdrive/h/.ssh/id_rsa**
+    
 
-That will store your SSH key in the **.ssh** directory on your home drive.  If you are working on your own PC, you will likely need to use a different drive letter, as you might not have an **H:** drive.  Note the location where you stored the SSH key.
+That will store your SSH key in the **.ssh** directory on your home drive.  If you are working on your own PC, you will likely need to use a different drive letter, as you might not have an **H:** drive.  Note the location where you stored the SSH key - you will need it later to configure Eclipse.
 
 When prompted for a passphrase, just press enter (twice).
 

@@ -34,11 +34,13 @@ Execute the following commands in a Cygwin (Windows) or Linux terminal window, w
 	cd h:
     ls .ssh
 
-If this command shows the files **id\_rsa** and **id\_rsa.pub**, then you can continue to Step 2.  Otherwise, execute the following command:
+If this command shows the files **id\_rsa** and **id\_rsa.pub**, you can skip the following steps, and proceed to Step 2.  Otherwise, execute the following command to create the .ssh folder on your h: drive.
 
-To generate the SSH key:
+    mkdir .ssh
+    
+Then execute the following command to generate the SSH key:
 
-	ssh-keygen -t rsa -b 2048
+    ssh-keygen -t rsa -b 2048
     
 When prompted to enter the file in which to save the key, enter the following path and file name for the SSH key, otherwise the key will be stored at **C:/Users/username/.ssh** on the lab computer you are working on and will not be available to you on other lab computers:
 

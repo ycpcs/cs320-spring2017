@@ -40,10 +40,10 @@ To generate the SSH key:
 
 	ssh-keygen -t rsa -b 2048
     
-When prompted to enter the file in whic to save the key, enter the following path and file name for the SSH key, otherwise the key will be stored at **C:/Users/username/.ssh** on the lab computer you are working on and will not be available to you on other lab computers:
+When prompted to enter the file in which to save the key, enter the following path and file name for the SSH key, otherwise the key will be stored at **C:/Users/username/.ssh** on the lab computer you are working on and will not be available to you on other lab computers:
 
     Generating public/private rsa key pair.
-    Enter file in which to save the key (/home/username/.ssh/id_rsa): **/cygdrive/h/.ssh/id_rsa**
+    Enter file in which to save the key (/home/username/.ssh/id_rsa): /cygdrive/h/.ssh/id_rsa
     
 
 That will store your SSH key in the **.ssh** directory on your home drive.  If you are working on your own PC, you will likely need to use a different drive letter, as you might not have an **H:** drive.  Note the location where you stored the SSH key - you will need it later to configure Eclipse.

@@ -12,5 +12,5 @@ Sunday, January 29     | [Lab 2: Web Applications I](lab02.html) | [CS320\_Jetty
 Sunday, February 12    | [Lab 2a: Web Applications II](lab02a.html) | N/A
 Wednesday, March 8 (in-class) | [Lab 3: Git](lab03.html) |
 Tuesday, March 14      | [Lab 4: SQL, Queries, Joins](lab04.html) | [CS320\_Lab04.zip](CS320_Lab04.zip)
-Thursday, March 16     | [Lab 5: JDBC](lab05.html) | [CS320\_Lab05.zip](CS320_Lab05.zip)
-Thursday, March 30     | [Lab 6: ORM](lab06.html) | [CS320\_Lab06.zip](CS320_Lab06.zip)
+Friday, March 17       | [Lab 5: JDBC](lab05.html) | [CS320\_Lab05.zip](CS320_Lab05.zip)
+Friday, March 31       | [Lab 6: ORM](lab06.html) | [CS320\_Lab06.zip](CS320_Lab06.zip)

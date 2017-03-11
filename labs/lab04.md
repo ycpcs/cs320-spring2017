@@ -73,4 +73,15 @@ AUTHOR_ID AUTHOR_LASTNAME AUTHOR_FIRSTNAME
 OK (5 rows(s))
 </pre>
 
-[Here is a great tutorial side for learning SQL](http://www.w3schools.com/sql/default.asp)
+[Here is a great tutorial website for learning SQL](http://www.w3schools.com/sql/default.asp)
+
+# What to submit
+
+Create a text file containing, for each query listed above:
+
+* The exact query you came up with
+* The exact output of the query
+
+You can cut and paste these from the console window as shown above.
+
+Save your queries and outputs in a plain text file and upload the text file to Marmoset as **lab04**.

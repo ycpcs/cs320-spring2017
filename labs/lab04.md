@@ -85,7 +85,6 @@ Make sure to verify that the results of each query are correct by comparing agai
 -   the title for each book written by Stephen Hawking
 -   the title and year of publishing for each book written by Douglas Adams
 -   the author's name (first and last), the ISBN, and the year published for the book with the title "Something Under the Bed is Drooling"
--   the names of all authors who have the same first name or the same last name
 -   all of the authors for "The Complete Monty Python's Flying Circus; All the Words, Volume 1"
 -	the title and author for each of Berkeley Breathed's and Bill Watterson's books, sorted in ascending order by title
 -   the title and author(s) for each book with the word "Time" or "Universe" in the title

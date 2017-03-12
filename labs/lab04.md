@@ -21,7 +21,7 @@ Use **create table** commands to create **books** and **authors** tables. From t
         author_id int,
         title varchar(50),
         isbn varchar(20),
-		year int
+        year int
     );
 
     create table authors (

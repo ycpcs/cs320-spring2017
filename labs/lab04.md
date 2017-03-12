@@ -13,7 +13,7 @@ Setting up the database
 
 Execute the **SQLDemo** class as a Java application.
 
-Use **create table** commands to create **books** and **authors** tables. From the **SQL\>** prompt, enter the following commands:
+Use **create table** commands to create **books** and **authors** tables. From the **SQL\>** prompt, enter the following commands.  Rather than typing them, you can actually copy each command from this page and paste it into the SQL prompt - then press "Enter" to execute the command.
 
     create table books (
         book_id int
@@ -77,8 +77,7 @@ Make sure to verify that the results of each query are correct by comparing agai
 -   the title and author(s) for each book with the word "Time" or "Universe" in the title
 -   attempt to insert a new book into the **books** table, with an **author_id** that does not appear in the **authors** table (this attempt should fail, due to specifying an invalid **foreign key** for **author_id**)
 -   insert yourself as a new author in the the **authors** table (do not specify an author_id, Derby will do that for you, since **author_id** is the auto-generated primary key for the **authors** table)
--   retrieve the **author_id** from the **authors** table for your entry
--   insert a new book into the **books** table, using your new **author_id**
+-   retrieve the **author_id** from the **authors** table for your entry and insert a new book into the **books** table, using your **author_id**
 -   now retrieve all of the information for your book (title, ISBN, published, lastname, firstname)
 
 # What to submit

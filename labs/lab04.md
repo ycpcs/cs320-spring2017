@@ -19,8 +19,8 @@ Use **create table** commands to create **books** and **authors** tables. From t
         book_id int
             primary key generated always as identity (start with 1, increment by 1),
         author_id int,
-        title varchar(50),
-        isbn varchar(20),
+        title varchar(60),
+        isbn varchar(15),
         year_pub int
     );
 

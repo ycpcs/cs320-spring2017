@@ -56,14 +56,28 @@ Each query should be terminated with a semicolon (**;**). For example, here is s
 
 <pre>
 SQL> <b>select * from authors;</b>
-AUTHOR_ID LASTNAME        FIRSTNAME
---------- --------------- ----------------
-        1     Smallfinger             F.G.
-        2       Whittlbey           W.H.J.
-        3          Earwig          Lettice
-        4         Lightly             W.E.
-        5        Tacticus           Callus
-OK (5 rows(s))
+AUTHOR_ID    LASTNAME FIRSTNAME
+--------- ----------- ---------
+        1 Smallfinger      F.G.
+        2   Whittlbey    W.H.J.
+        3      Earwig   Lettice
+        4     Lightly      W.E.
+        5    Tacticus    Callus
+        6       Adams   Douglas
+        7       Adams     Scott
+        8    Breathed  Berkeley
+        9     Chapman    Graham
+       10      Cleese      John
+       11     Gilliam     Terry
+       12     Hawking   Stephen
+       13        Idle      Eric
+       14       Jones     Terry
+       15    Kahneman    Daniel
+       16    Mlodinow   Leonard
+       17      Newton     Isaac
+       18       Palin   Michael
+       19   Watterson      Bill
+OK (19 rows(s))
 </pre>
 
 Make sure to verify that the results of each query are correct by comparing against the  database tables themselves.
@@ -87,6 +101,6 @@ Create a text file containing, for each query listed above:
 * The exact query you came up with
 * The exact output of the query
 
-You can cut and paste these from the console window as shown above.
+You can cut and paste these from the console window as shown in the example above.
 
 Save your queries and outputs in a plain text file and upload the text file to Marmoset as **lab04**.

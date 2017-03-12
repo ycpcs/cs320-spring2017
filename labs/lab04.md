@@ -50,19 +50,7 @@ The schemas of the database tables are described in the notes for [Lecture 9](..
 Task
 ====
 
-Compose and execute the SQL queries that retrieve the following information.  For the later queries, you will have to do some research at [w3schools](http://www.w3schools.com/sql/default.asp) in order to learn the proper SQL commands to complete the query.
-
--   the title for each book written by Stephen Hawking
--   the title and year of publishing for each book written by Douglas Adams
--   the author's name (first and last), the ISBN, and the year published for the book with the title "Something Under the Bed is Drooling"
--   the names of all authors who the same first name or the same last name
--   all of the authors for "The Complete Monty Python's Flying Circus; All the Words, Volume 1"
--	the title and author for each of Berkley Breathed's and Bill Watterson's books, sorted in ascending order by title
--   the title and author(s) for each book with the word "Time" or "Universe" in the title
--   attempt to insert a new book into the **books** table, with an **author_id** that does not appear in the **authors** table (this attempt should fail, due to specifying an invalid **foreign key** for **author_id**)
--   insert yourself as a new author in the the **authors** table (do not specify an author_id, Derby will do that for you, since **author_id** is the auto-generated primary key for the **authors** table)
--   retrieve the **author_id** from the **authors** table for your entry
--   insert a new book into the **books** table, using your new **author_id**
+Compose and execute SQL queries that retrieve the following information.  For the later queries, you will have to do some research at [w3schools](http://www.w3schools.com/sql/default.asp) in order to learn the proper SQL commands to complete the query.
 
 Each query should be terminated with a semicolon (**;**). For example, here is session showing a query to select all of the tuples in the **authors** table (user input in **bold**):
 
@@ -78,7 +66,20 @@ AUTHOR_ID LASTNAME        FIRSTNAME
 OK (5 rows(s))
 </pre>
 
-[Here is a great tutorial website for learning SQL](http://www.w3schools.com/sql/default.asp)
+Make sure to verify that the results of each query are correct by comparing against the  database tables themselves.
+
+-   the title for each book written by Stephen Hawking
+-   the title and year of publishing for each book written by Douglas Adams
+-   the author's name (first and last), the ISBN, and the year published for the book with the title "Something Under the Bed is Drooling"
+-   the names of all authors who have the same first name or the same last name
+-   all of the authors for "The Complete Monty Python's Flying Circus; All the Words, Volume 1"
+-	the title and author for each of Berkeley Breathed's and Bill Watterson's books, sorted in ascending order by title
+-   the title and author(s) for each book with the word "Time" or "Universe" in the title
+-   attempt to insert a new book into the **books** table, with an **author_id** that does not appear in the **authors** table (this attempt should fail, due to specifying an invalid **foreign key** for **author_id**)
+-   insert yourself as a new author in the the **authors** table (do not specify an author_id, Derby will do that for you, since **author_id** is the auto-generated primary key for the **authors** table)
+-   retrieve the **author_id** from the **authors** table for your entry
+-   insert a new book into the **books** table, using your new **author_id**
+-   now retrieve all of the information for your book (title, ISBN, published, lastname, firstname)
 
 # What to submit
 

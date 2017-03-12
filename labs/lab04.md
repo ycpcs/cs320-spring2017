@@ -20,14 +20,15 @@ Use **create table** commands to create **books** and **authors** tables. From t
             primary key generated always as identity (start with 1, increment by 1),
         author_id int,
         title varchar(50),
-        isbn varchar(20)
+        isbn varchar(20),
+		year int
     );
 
     create table authors (
         author_id int
             primary key generated always as identity (start with 1, increment by 1),
-        author_lastname varchar(40),
-        author_firstname varchar(40)
+        lastname varchar(40),
+        firstname varchar(40)
     );
 
 Next, use **import** commands to load data into these tables:
@@ -51,9 +52,9 @@ Task
 
 Try executing some queries to retrieve the following information:
 
--   the titles of all books written by F.G. Smallfinger
--   the titles of all books written by Callus Tacticus
--   the author name (first and last) and the ISBN number of the book with the title "First Flights in Witchcraft"
+-   the titles of all books written by Stephen Hawking
+-   the titles of all books written by Douglas Adams
+-   the author name (first and last), the ISBN, and the year of the book with the title "Something Under the Bed is Drooling"
 -   attempt to insert a new book into the **books** table, with an **author_id** that does not appear in the **authors** table (this attempt should fail, due to specifying an invalid **foreign key** for **author_id**)
 -   insert yourself as a new author in the the **authors** table (do not specify an author_id, Derby will do that for you, since **author_id** is the auto-generated primary key for the **authors** table)
 -   retrieve the **author_id** from the **authors** table for your entry
@@ -63,7 +64,7 @@ Each query should be terminated with a semicolon (**;**). For example, here is s
 
 <pre>
 SQL> <b>select * from authors;</b>
-AUTHOR_ID AUTHOR_LASTNAME AUTHOR_FIRSTNAME
+AUTHOR_ID LASTNAME        FIRSTNAME
 --------- --------------- ----------------
         1     Smallfinger             F.G.
         2       Whittlbey           W.H.J.

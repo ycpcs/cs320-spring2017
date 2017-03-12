@@ -50,14 +50,15 @@ The schemas of the database tables are described in the notes for [Lecture 9](..
 Task
 ====
 
-Try executing some queries to retrieve the following information:
+Compose and execute the SQL queries that retrieve the following information.  For the later queries, you will have to do some research at [w3schools](http://www.w3schools.com/sql/default.asp) in order to learn the proper SQL commands to complete the query.
 
--   the titles of all books written by Stephen Hawking
--   the titles of all books written by Douglas Adams
--   the author name (first and last), the ISBN, and the year of the book with the title "Something Under the Bed is Drooling"
--   the titles of all books with the word "Bloom" in them
+-   the title for each book written by Stephen Hawking
+-   the title and year of publishing for each book written by Douglas Adams
+-   the author's name (first and last), the ISBN, and the year published for the book with the title "Something Under the Bed is Drooling"
+-   the names of all authors who the same first name or the same last name
 -   all of the authors for "The Complete Monty Python's Flying Circus; All the Words, Volume 1"
--	the titles of all of Hawking's books, sorted in ascending order by title
+-	the title and author for each of Berkley Breathed's and Bill Watterson's books, sorted in ascending order by title
+-   the title and author(s) for each book with the word "Time" or "Universe" in the title
 -   attempt to insert a new book into the **books** table, with an **author_id** that does not appear in the **authors** table (this attempt should fail, due to specifying an invalid **foreign key** for **author_id**)
 -   insert yourself as a new author in the the **authors** table (do not specify an author_id, Derby will do that for you, since **author_id** is the auto-generated primary key for the **authors** table)
 -   retrieve the **author_id** from the **authors** table for your entry

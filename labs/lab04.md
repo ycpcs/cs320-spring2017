@@ -87,7 +87,7 @@ Make sure to verify that the results of each query are correct by comparing agai
 -   the author's name (first and last), the ISBN, and the year published for the book with the title "Something Under the Bed is Drooling"
 -   all of the authors for "The Complete Monty Python's Flying Circus; All the Words, Volume 1"
 -	the title and author for each of Berkeley Breathed's and Bill Watterson's books, sorted in ascending order by title
--   the title and author(s) for each book with the word "Time" or "Universe" in the title
+-   the author(s) and title for each book with the word "Time" or "Universe" in the title, sorted in ascending order by lastname, and then ascending by title.
 -   attempt to insert a new book into the **books** table, with an **author_id** that does not appear in the **authors** table (this attempt should fail, due to specifying an invalid **foreign key** for **author_id**)
 -   insert yourself as a new author in the the **authors** table (do not specify an author_id, Derby will do that for you, since **author_id** is the auto-generated primary key for the **authors** table)
 -   retrieve the **author_id** from the **authors** table for your entry and insert a new book into the **books** table, using your **author_id**

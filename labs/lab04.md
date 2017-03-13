@@ -50,7 +50,7 @@ The schemas of the database tables are described in the notes for [Lecture 9](..
 Task
 ====
 
-Compose and execute SQL queries that retrieve the following information.  For the later queries, you will have to do some research at [w3schools](http://www.w3schools.com/sql/default.asp) in order to learn the proper SQL commands to complete the query.
+Compose and execute SQL queries that retrieve the following information.  For the later queries, you will have to do some research at **[w3schools](http://www.w3schools.com/sql/default.asp)** in order to learn the proper SQL commands to complete the query.
 
 Each query should be terminated with a semicolon (**;**). For example, here is session showing a query to select all of the tuples in the **authors** table (user input in **bold**):
 
@@ -90,11 +90,11 @@ Make sure to verify that the results of each query are correct by comparing agai
 
 # What to submit
 
-Create a text file containing, for each query listed above:
+Create a text file named **lab04-username.txt** (replace "username" with your YCP username).  For each query listed above, copy the following information into your text file:
 
 * The exact query you came up with
 * The exact output of the query
 
-You can cut and paste these from the console window as shown in the example above.
+You can cut and paste your queries and results from the console window as shown in the example above.  If you create and populate this file as you do the lab, you'll be able to copy the queries back into the SQL> window to repeat, test, and modify them.  You will also reuse the steps to add a new book (and author) to the database in lab05.
 
-Save your queries and outputs in a plain text file and upload the text file to Marmoset as **lab04**.
+Upload your solution text file to Marmoset in the **lab04** project.

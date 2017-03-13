@@ -81,7 +81,7 @@ A *query* is a request to retrieve information from a database.
 
 **SQL**, the **Structured Query Language**, is a standard language for describing queries in relational databases. SQL is an interesting language because it is *declarative*: it describes *what* information is desired, but does not specify *how* that information is to be retrieved. It is the job of the database to figure out how to find the information requested by a query.
 
-Example: let's say we want to find the titles of all books written by **Sephen Hawking**. In our original database, in which only the **books** relation exists, we could express that query as follows:
+Example: let's say we want to find the titles of all books written by **Stephen Hawking**. In our original database, in which only the **books** relation exists, we could express that query as follows:
 
     select title
         from books
@@ -94,9 +94,13 @@ A SQL **select** statement specifies a query, and has three parts:
 -   A *condition* describing which tuples contain the desired information. In the example above, the condition requires that tuples were **lastname = 'Hawking'** and **firstname = 'Stephen'** are desired.
 
 This query will match multiple tuples in the **books** relation, and return the following **title** values:
+
 > **A Brief History of Time**
+
 > **The Universe in a Nutshell**
+
 > **A Briefer History of Time**
+
 > **The Grand Design**
 
 Joins
@@ -108,8 +112,8 @@ Let's consider how to find the titles of all books by **Stephen Hawking** in the
 
     select books.title
         from books, authors
-        where books.author_id = authors.author_id
-            and authors.lastname = 'Hawking' and authors.firstname = 'Stephen'
+        where books.author_id = authors.author_id and
+              authors.lastname = 'Hawking' and authors.firstname = 'Stephen'
 
 Note several interesting details of this query:
 

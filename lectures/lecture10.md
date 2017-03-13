@@ -41,8 +41,8 @@ For example: here is a query that searches for books matching a particular title
 
     select authors.lastname, authors.firstname, books.title, books.isbn, books.published
         from authors, books
-        where authors.author_id = books.author_id
-              and books.title = ?
+        where authors.author_id = books.author_id and
+              books.title = ?
 
 The question mark (**?**) is a placeholder for a particular book title. So, this query is a general "template" for finding books given a title. If we make this query a prepared statement, we can use it as many times as desired to find books matching various titles. Each time we execute the prepared statement, we will substitute a specific title for the placeholder.
 

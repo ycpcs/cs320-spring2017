@@ -58,26 +58,21 @@ Each query should be terminated with a semicolon (**;**). For example, here is s
 SQL> <b>select * from authors;</b>
 AUTHOR_ID    LASTNAME FIRSTNAME
 --------- ----------- ---------
-        1 Smallfinger      F.G.
-        2   Whittlbey    W.H.J.
-        3      Earwig   Lettice
-        4     Lightly      W.E.
-        5    Tacticus    Callus
-        6       Adams   Douglas
-        7       Adams     Scott
-        8    Breathed  Berkeley
-        9     Chapman    Graham
-       10      Cleese      John
-       11     Gilliam     Terry
-       12     Hawking   Stephen
-       13        Idle      Eric
-       14       Jones     Terry
-       15    Kahneman    Daniel
-       16    Mlodinow   Leonard
-       17      Newton     Isaac
-       18       Palin   Michael
-       19   Watterson      Bill
-OK (19 rows(s))
+        1       Adams   Douglas
+        2       Adams     Scott
+        3    Breathed  Berkeley
+        4     Chapman    Graham
+        5      Cleese      John
+        6     Gilliam     Terry
+        7     Hawking   Stephen
+        8        Idle      Eric
+        9       Jones     Terry
+       10    Kahneman    Daniel
+       11    Mlodinow   Leonard
+       12      Newton     Isaac
+       13       Palin   Michael
+       14   Watterson      Bill
+OK (14 rows(s))
 </pre>
 
 Make sure to verify that the results of each query are correct by comparing against the  database tables themselves.

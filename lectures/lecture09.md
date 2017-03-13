@@ -16,44 +16,61 @@ Example relation
 
 Let's say we are going to use a relational database to store information about books. We might define a relation called **books** to store information about each book:
 
-> author\_lastname | author\_firstname | title | ISBN
-> ---------------- | ----------------- | ----- | ----
-> Smallfinger  | F.G.  | A History of Hats | 0-651-65165-4
-> Whittlbey | W.H.J. | Guide to Impossible Buildings  | 82-234-5475-0
-> Earwig | Lettice | First Flights in Witchcraft | 5-9672-6521-X
-> Lightly | W.E. | Habits of the Wolves | 91-33-65168-X
-> Tacticus | Callus | Sieges and Survival | 0-651-65165-4
-> Tacticus | Callus | VENI VIDI VICI: A Soldier's Life | 84-15978-99-5
+> lastname | firstname | title | ISBN | published
+> ---------------- | ----------------- | ----- | ---- | --------
+> Hawking | Stephen | A Brief History of Time | 0-553-05340-X | 1988
+> Hawking | Stephen | The Universe in a Nutshell | 0-553-80202-3 | 2001
+> Hawking | Stephen | A Briefer History of Time | 0-553-80436-7 | 2005
+> Mlodinow | Leonard | A Briefer History of Time | 0-553-80436-7 | 2005
+> Hawking | Stephen | The Grand Design | 0-553-80537-1 | 2010
+> Mlodinow | Leonard | The Grand Design | 0-553-80537-1 | 2010
+> Adams | Douglas | The Hitchhiker's Guide to the Galaxy | 0-345-39180-3 | 1979
+> Adams | Douglas | The Restaurant at the End of the Universe | 0-345-39181-0 | 1980
+> Adams | Douglas | Life, The Universe and Everything | 0-345-39182-9 | 1982
+> Adams | Douglas | So Long, and Thanks for all the Fish | 0-345-39183-7 | 1984
 
-In this relation, there are four attributes called **author\_lastname**, **author\_firstname**, **title**, and **ISBN**. Each attribute is a text string.
+In this relation, there are five attributes called **lastname**, **firstname**, **title**, **ISBN**, and **published**. The first four attributes are strings, the last is an integer.
 
 Databases with multiple relations
 =================================
 
-Databases will typically have many relations. One motivation for allowing multiple relations in a database is to avoid storing redundant information. For example, in the relation above, there are two tuples representing books by the same author, **Callus Tacticus**. Because the author name is represented twice, there is the possibility that this information might not be recorded consistently if the relation were modified.
+Databases will typically have many relations. One motivation for allowing multiple relations in a database is to avoid storing redundant information. For example, in the relation above, there are four tuples representing books by the same author, **Stephen Hawking**. Because the author name is represented four times, there is the possibility that this information might not be recorded consistently if the relation were modified.
 
 We can avoid this redundancy by splitting the database into two relations, **books** and **authors**:
 
 > The **books** relation:
 >
-> book\_id | author\_id | title | ISBN
-> ---- | ---------- | ----- | ----
-> 1 | 1 | A History of Hats | 0-651-65165-4
-> 2 | 2 | Guide to Impossible Buildings | 82-234-5475-0
-> 3 | 3 | First Flights in Witchcraft | 5-9672-6521-X
-> 4 | 4 | Habits of the Wolves | 91-33-65168-X
-> 5 | 5 | Sieges and Survival | 0-651-65165-4
-> 6 | 5 | VENI VIDI VICI: A Soldier's Life | 84-15978-99-5
+> book\_id | author\_id | title | ISBN | published
+> ---- | ---------- | ----- | ---- | ------
+> 1 | 7 | A Brief History of Time | 0-553-05340-X | 1988
+> 2 | 7 | The Universe in a Nutshell | 0-553-80202-3 | 2001
+> 3 | 7 | A Briefer History of Time | 0-553-80436-7 | 2005
+> 4 | 11 | A Briefer History of Time | 0-553-80436-7 | 2005
+> 5 | 7 | The Grand Design | 0-553-80537-1 | 2010
+> 6 | 11 | The Grand Design | 0-553-80537-1 | 2010
+> 7 | 1 | The Hitchhiker's Guide to the Galaxy | 0-345-39180-3 | 1979
+> 8 | 1 | The Restaurant at the End of the Universe | 0-345-39181-0 | 1980
+> 9 | 1 | Life, The Universe and Everything | 0-345-39182-9 | 1982
+> 10 | 1 | So Long, and Thanks for all the Fish | 0-345-39183-7 | 1984
 >
 > The **authors** relation:
 >
-> author\_id | author\_lastname | author\_firstname
+> author\_id | lastname | firstname
 > ---------- | ---------------- | -----------------
-> 1 | Smallfinger | F.G.
-> 2 | Whittlbey | W.H.J.
-> 3 | Earwig | Lettice
-> 4 | Lightly | W.E.
-> 5 | Tacticus | Callus
+> 1 | Adams | Douglas
+> 2 | Adams | Scott
+> 3 | Breathed | Berkeley
+> 4 | Chapman | Graham
+> 5 | Cleese |  John
+> 6 | Gilliam | Terry
+> 7 | Hawking | Stephen
+> 8 | Idle | Eric
+> 9 | Jones | Terry
+> 10 | Kahneman | Daniel
+> 11 | Mlodinow | Leonard
+> 12 | Newton | Isaac
+> 13 | Palin | Michael
+> 14 | Watterson | Bill
 
 The **books** relation has been changed so that the author of each book is represented by a unique integer identifier, the **author\_id** attribute. This attribute also exists in the **authors** relation. So, the author of each book tuple in the **books** relation is represented indirectly, by reference to a matching author tuple in the **authors** relation.
 
@@ -64,31 +81,35 @@ A *query* is a request to retrieve information from a database.
 
 **SQL**, the **Structured Query Language**, is a standard language for describing queries in relational databases. SQL is an interesting language because it is *declarative*: it describes *what* information is desired, but does not specify *how* that information is to be retrieved. It is the job of the database to figure out how to find the information requested by a query.
 
-Example: let's say we want to find the titles of all books written by **F.G. Smallfinger**. In our original database, in which only the **books** relation exists, we could express that query as follows:
+Example: let's say we want to find the titles of all books written by **Sephen Hawking**. In our original database, in which only the **books** relation exists, we could express that query as follows:
 
     select title
         from books
-        where author_lastname = 'Smallfinger' and author_firstname = 'F.G.'
+        where lastname = 'Hawking' and firstname = 'Stephen'
 
 A SQL **select** statement specifies a query, and has three parts:
 
 -   Which attribute values to retrieve. In the example above, only the **title** attribute is requested.
 -   Which relations are involved in the query. In the example above, only the **books** relation is queried.
--   A *condition* describing which tuples contain the desired information. In the example above, the condition requires that tuples were **author\_lastname = 'Smallfinger'** and **author\_firstname = 'F.G.'** are desired.
+-   A *condition* describing which tuples contain the desired information. In the example above, the condition requires that tuples were **lastname = 'Hawking'** and **firstname = 'Stephen'** are desired.
 
-This query will match a single tuple in the **books** relation, and return a single **title** value, **A History of Hats**.
+This query will match multiple tuples in the **books** relation, and return the following **title** values:
+> **A Brief History of Time**
+> **The Universe in a Nutshell**
+> **A Briefer History of Time**
+> **The Grand Design**
 
 Joins
 =====
 
 A *join* is a query which retrieves information from multiple relations. Joins are a powerful way to exploint *associations* between tuples in different relations. The idea is that a query retrieving information from multiple relations will specify a *join condition* which links attribute values in tuples of two relations.
 
-Let's consider how to find the titles of all books by **F.G. Smallfinger** in the second version of the database, where we have two relations, **books** and **authors**. We will need to do a join of both relations in order to connect the author name and book title, which are now stored in different relations:
+Let's consider how to find the titles of all books by **Stephen Hawking** in the second version of the database, where we have two relations, **books** and **authors**. We will need to do a join of both relations in order to connect the author name and book title, which are now stored in different relations:
 
     select books.title
         from books, authors
         where books.author_id = authors.author_id
-            and authors.author_lastname = 'Smallfinger' and authors.author_firstname = 'F.G.'
+            and authors.lastname = 'Hawking' and authors.firstname = 'Stephen'
 
 Note several interesting details of this query:
 
@@ -117,8 +138,8 @@ For very large relations, a sequential scan may do much more work than necessary
 
 To answer queries as efficiently as possible, the database should limit its scan to as small a subset of tuples as possible. This can be done using an *index*.
 
-For example: let's say that in the book database, we will frequently need to search for authors by last name. To make those queries more efficient, we can build an index on the **author\_lastname** attribute. Queries such as
+For example: let's say that in the book database, we will frequently need to search for authors by last name. To make those queries more efficient, we can build an index on the **lastname** attribute. Queries such as
 
-    select author_id from authors where author_lastname = 'Smith';
+    select author_id from authors where lastname = 'Smith';
 
-can be answered efficiently because the index on **author\_lastname** will allow the database to ignore tuples in which the value of that attribute is not 'Smith'.
+can be answered efficiently because the index on **lastname** will allow the database to ignore tuples in which the value of that attribute is not 'Smith'.

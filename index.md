@@ -44,17 +44,15 @@ All information about the course will be posted here.
 
 * **Apr 4** - [Team Project Milestone 3](assign/assign03.html) is due Friday, April 15th.  This will be a 10-minute (max) in-class team presentation/demonstration of your team's progress since milestone 2.  SQL database functionality **is required** for this milestone.  A large majority of your classes, methods, test cases, and web page navigation should be implemented by milestone 3, as well.
 
-* **Apr 3** - Added JUnit Test cases to the Library project on the [Resources page](./resources) that provide examples for testing the Derby database queries without needing to have the servlet, controller, or JSP code implemented.
-
-* **Mar 29** - Posted several new links on the [Resources page](./resources) that provide much helpful information on the various technologies that you are using in the implementation of your projects.
-
 * **Mar 29** - Posted an extensive example project on the [Resources page](./resources) that incorporates the Web Applications lab solution (Lab03) with the ORM Lab solution (Lab06).  It provides a web application front-end to the ORM queries, as well as demonstrates the use of login session information, and incorporation of a SQL database persistence layer.
 
-* **Mar 23** - [Individual Project Milestone2](assign/assign04.html) is due Friday, April 8th.  This will be a 3-4 minute in-class demonstration of your progress since Milestone 1.
-
-* **Mar 23** - [Team Project Milestone 2](assign/assign03.html) is due Friday, April 1st.  This will be a 10-minute (max) in-class team presentation/demonstration of your team's progress since milestone 1.  SQL database functionality is not required for this milestone (but *is* required for the third.)
-
 --->
+
+* **Mar 25** - [Individual Project Milestone2](assign/assign04.html) is due Monday, April 10th.  This will be a 3-4 minute in-class demonstration of your progress since Milestone 1.
+
+* **Mar 25** - [Team Project Milestone 2](assign/assign03.html) is due Monday, April 3rd.  This will be a 10-minute (max) in-class team presentation/demonstration of your team's progress since milestone 1.  SQL database functionality is **NOT** required for this milestone (but **IS** required for the third milestone.)
+
+* **Mar 24** - [Lab06: ORM](labs/lab06.html) is posted.  It is due **Friday, 3-31-17**.
 
 * **Mar 12** - [Lab05: JDBC](labs/lab05.html) is posted.  It is due **Friday, 3-17-17**.
 

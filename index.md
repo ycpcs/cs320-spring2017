@@ -40,13 +40,14 @@ All information about the course will be posted here.
 
 * **Apr 11** - Updated the Library project on the [Resources page](./resources) to include a many-to-many relationship between the Books and Authors table by implementing a junction table.
 
-* **Apr 6** - By (nearly) unanimous vote, exam 2 will also be a take-home exam.  Exam 2 will be handed out at the end of class on Friday, 4-15-16, and will be due at the start of class on Monday, April 18th.  Since this is a take-home exam, a practice exam will not be provided.
 
 * **Apr 4** - [Team Project Milestone 3](assign/assign03.html) is due Friday, April 15th.  This will be a 10-minute (max) in-class team presentation/demonstration of your team's progress since milestone 2.  SQL database functionality **is required** for this milestone.  A large majority of your classes, methods, test cases, and web page navigation should be implemented by milestone 3, as well.
 
 * **Mar 29** - Posted an extensive example project on the [Resources page](./resources) that incorporates the Web Applications lab solution (Lab03) with the ORM Lab solution (Lab06).  It provides a web application front-end to the ORM queries, as well as demonstrates the use of login session information, and incorporation of a SQL database persistence layer.
 
 --->
+
+* **Mar 29** - The midterm exam will be in-class on **Friday, 4-7-17**.  It will be open notes and you can use any resource on the CS320 website, as well as your lab solutions.  A practice exam will be posted over the weekend.  We will use Wednesday, 4-5-17, to go over an end-to-end solution for the books database we've been working with, as well as review for the exam.
 
 * **Mar 25** - [Individual Project Milestone2](assign/assign04.html) is due Monday, April 10th.  This will be a 3-4 minute in-class demonstration of your progress since Milestone 1.
 

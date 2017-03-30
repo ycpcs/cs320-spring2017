@@ -45,8 +45,8 @@ Mar 27 | Individual Project Milestone 1:<br> **Baseline Prototype** | [Assignmen
 Mar 29 | SQL / JDBC / ORM Labs<br> In-class team project work
 Mar 31 | Team Project Session (in class)
 Apr 3 | Team Project Milestone 2:<br> **Progress on Features** | [Assignment 3: Team Project Milestones](assign/assign03.html)
-Apr 5 | **MID-TERM EXAM** (in class)
-Apr 7 | Team Project Session (in class)
+Apr 5 | Library Example and Exam Review
+Apr 7 | **MID-TERM EXAM** (in class)
 Apr 10 | Individual Project Milestone 2:<br> **33% Progress** | [Assignment 4: Individual Project Milestones](assign/assign04.html)
 Apr 12 | Team Project Session (in class)
 Apr 14 | **Spring Break, no class**

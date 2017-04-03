@@ -9,6 +9,8 @@ This page links to useful resources.
 
 Violet UML: [violetumleditor-2.1.0.jar](violetumleditor-2.1.0.jar)
 
+[UML: A Great Explanation of UML Relationships](http://usna86-techbits.blogspot.de/2012/11/uml-class-diagram-relationships.html)
+
 [CS320\_Derby.zip](CS320_Derby.zip) &mdash; Eclipse project with jarfiles for Apache Derby (relational database)
 
 [W3Schools: Great Tutorial site for HTML, CSS, Java Script, SQL, PHP](http://www.w3schools.com) - Go here first for HTML/CSS tutorials.
@@ -26,23 +28,23 @@ Violet UML: [violetumleditor-2.1.0.jar](violetumleditor-2.1.0.jar)
 [Creating and Using Session Information](http://www.tutorialspoint.com/jsp/jsp_session_tracking.htm) - linked from above site.
 
 <!-- Commented out Library Example unitl after ORM Lab is complete
-[CS320\_Library\_Example\_With\_M2M.zip](CS320_Library_Example_With_M2M.zip) &mdash; Eclipse project that ties the [Web Applications Lab](../labs/lab03.html) together with the [ORM Lab](../labs/lab06.html).  This application places a web front-end on the SQL transactions from Lab06, as well as provides examples for creating a Derby database from CSV files, how to use session information after login, and how to use JSTL to display a list of complex objects in a JSP.  It has been updated to incorporate a many-to-many relationship between Books and Authors.  It also contains some example JUnit Tests for testing the Derby database queries.
+[CS320\_Library\_Example\_2017.zip](CS320_Library_Example_2017.zip) &mdash; Eclipse project that ties the [Web Applications Lab](../labs/lab02.html) together with the [ORM Lab](../labs/lab06.html).  This application places a web front-end on the SQL transactions from Lab06, as well as provides examples for creating a Derby database from CSV files, how to use session information after login, and how to use JSTL to display a list of complex objects in a JSP.  It has been updated to incorporate a many-to-many relationship between Books and Authors.  It also contains some example JUnit Tests for testing the Derby database queries.
 
 > <div class="callout"><b>NOTE: You are free to incorporate any of this code into your project(s) - as long as you cite the source.</b></div>
 
-After you download the ZIP file, extract it into a new Java workspace separate from others that you have used in the past.  This project is composed of 4 separate Java projects (**CS320_Jetty**, **CS320_Derby**, **CS320_Lab03**, and **CS320_Lab06**).
+After you download the ZIP file, extract it into a new Java workspace separate from the others that you have used in the past.  This project is composed of 4 separate Java projects (**CS320_Jetty**, **CS320_Derby**, **CS320_Lab02**, and **CS320_Lab06**).
 
 Before running the project, open up **DerbyDatabase.java** under **CS320_Lab06->src->edu.ycp.cs320.booksdb.persist** and edit the Derby database location in the **connect()** method so that it has the absolute path where your workspace is located.  Do the same thing in **SQLDemo.java** in the **main()** method.
 
-Run **DerbyDatabase.java** as an application to create the Library database from the **authors.csv** and **books.csv** files. It might take a few seconds for the application to create the DB - you will see it in the console.  Afterwards, **library.db** will show up as a folder under the **CS320_Lab06** folder.  That is where your database files are located.
+Run **DerbyDatabase.java** as an application to create the Library database from the **authors.csv**, **books.csv**, and **bookAuthors.csv** files. It might take a few seconds for the application to create the DB - you will see it in the console.  Afterwards, **library.db** will show up as a folder under the **CS320_Lab06** folder.  That is where your database files are located.
 
 Run **SQLDemo.java** as an application so that you can issue SQL queries to the Library DB.  If this step works - if you can issue queries and SQLDemo can locate the DB - then you have correctly updated the two files from above.
 
-To run the web application, first stop **SQLDemo**, then run **CS320_Lab03->Main.java** as a Java application, followed by entering this URL in your web browser:
+To run the web application, first stop **SQLDemo**, then run **CS320_Lab02->Main.java** as a Java application, followed by entering this URL in your web browser:
 
-> [http://localhost:8081/lab03/login](http://localhost:8081/lab03/login)
+> [http://localhost:8081/lab02/login](http://localhost:8081/lab02/login)
 
-There are currently two sets of login credentials hard-coded into the application: User name: **student** with PW: **ycp** and User name: **faculty** with PW: **E&CS**.  After you have successfully logged in, the user name will be passed around as part of the Session information, and each subsequent servlet checks for a valid Session (a non-null "user" attribute) before responding to the request.
+There are currently two sets of login credentials hard-coded into the application: User name: **student** with PW: **ycp** and User name: **faculty** with PW: **E&CS**.  After you have successfully logged in, the user name will be passed around as part of the Session information, and each subsequent servlet checks for a valid Session (a non-null "user" attribute) before responding to the request.  Note that this is not a secure method for handling credentials, but is used as an example for passing around and checking Session information.
 
 --->
 

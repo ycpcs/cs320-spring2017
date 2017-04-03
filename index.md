@@ -22,8 +22,6 @@ All information about the course will be posted here.
 * [Practice Exams](practice/index.html)
 * [Marmoset (submission server)](https://cs.ycp.edu/marmoset)
 
-­-->
-
 ## News
 <!-- Commented out news - will add it back in as the semester progresses
 

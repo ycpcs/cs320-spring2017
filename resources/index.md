@@ -27,6 +27,9 @@ Violet UML: [violetumleditor-2.1.0.jar](violetumleditor-2.1.0.jar)
 
 [Creating and Using Session Information](http://www.tutorialspoint.com/jsp/jsp_session_tracking.htm) - linked from above site.
 
+[An Java email validator class using regex (regular expressions)](https://www.mkyong.com/regular-expressions/how-to-validate-email-address-with-regular-expression/
+)
+
 [CS320\_Library\_Example\_2017.zip](CS320_Library_Example_2017.zip) &mdash; Eclipse project that ties the [Web Applications Lab](../labs/lab02.html) together with the [ORM Lab](../labs/lab06.html).  This application places a web front-end on the SQL transactions from Lab06, as well as provides examples for creating a Derby database from CSV files, how to use session information after login, and how to use JSTL to display a list of complex objects in a JSP.  It has been updated to incorporate a many-to-many relationship between **Books** and **Authors**, using a junction table (**booksAuthors**) that cross-references **book_id**'s with **author_id**'s.  It also contains some example JUnit Tests for testing the Derby database queries.
 
 > <div class="callout"><b>NOTE: You are free to incorporate any of this code into your project(s) - as long as you cite the source.</b></div>

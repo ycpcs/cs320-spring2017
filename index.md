@@ -23,21 +23,18 @@ All information about the course will be posted here.
 * [Marmoset (submission server)](https://cs.ycp.edu/marmoset)
 
 ## News
-<!-- Commented out news - will add it back in as the semester progresses
 
-* **Apr 25** - [Assignment 10](assign/assign10.html) is an individual reflection on the team project.  [Assignment 11](assign/assign11.html) is a self/peer evaluation for the team project.  They are both due Tuesday, May 10th by 11:59 PM.
+* **Apr 25** - [Assignment 10](assign/assign10.html) is an individual reflection on the team project.  [Assignment 11](assign/assign11.html) is a self/peer evaluation for the team project.  They are both due Tuesday, May 9th by 11:59 PM.
 
 * **Apr 25** - [Assignment 9](assign/assign09.html) describes the deliverables for the individual project.
 
 * **Apr 25** - [Assignment 8](assign/assign08.html) describes the deliverables for the team project.
 
-* **Apr 25** - [Team Project Milestone 4](assign/assign03.html) is due Monday, May 2nd.  This will be a 10-minute (max) in-class team presentation/demonstration of your team's progress since milestone 3.  You should have a 95% working system, with a higher degree of "polish".  All SQL database functionality should be implemented for this milestone.  See the guidelines for [Team Project Milestone 4](assign/assign03.html).
+* **Apr 25** - [Team Project Milestone 4](assign/assign03.html) is due Monday, May 1st.  This will be a 10-minute (max) in-class team presentation/demonstration of your team's progress since milestone 3.  You should have a 95% working system, with a higher degree of "polish".  All SQL database functionality should be implemented for this milestone.  See the guidelines for [Team Project Milestone 4](assign/assign03.html).
 
-* **Apr 16** - [Individual Project Milestone3](assign/assign04.html) is due Friday, April 22nd.  This will be a 3-4 minute in-class demonstration of your progress since Milestone 2.
+* **Apr 17** - [Individual Project Milestone3](assign/assign04.html) is due Monday, April 24th.  This will be a 3-4 minute in-class demonstration of your progress since Milestone 2.
 
-* **Apr 4** - [Team Project Milestone 3](assign/assign03.html) is due Friday, April 15th.  This will be a 10-minute (max) in-class team presentation/demonstration of your team's progress since milestone 2.  SQL database functionality **is required** for this milestone.  A large majority of your classes, methods, test cases, and web page navigation should be implemented by milestone 3, as well.
-
---->
+* **Apr 14** - [Team Project Milestone 3](assign/assign03.html) is due Friday, April 21st.  This will be a 10-minute (max) in-class team presentation/demonstration of your team's progress since milestone 2.  SQL database functionality **is required** for this milestone.  A large majority of your classes, methods, test cases, and web page navigation should be implemented by milestone 3, as well.
 
 * **Apr 3** - Posted an extensive example project on the [Resources page](./resources) that incorporates the Web Applications lab solution (Lab02) with the ORM Lab solution (Lab06).  It provides a web application front-end to the ORM queries, as well as demonstrates the use of login session information, and incorporation of a SQL database persistence layer with a many-to-many relationship.
 

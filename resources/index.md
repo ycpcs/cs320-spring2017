@@ -30,8 +30,6 @@ Violet UML: [violetumleditor-2.1.0.jar](violetumleditor-2.1.0.jar)
 [An Java email validator class using regex (regular expressions)](https://www.mkyong.com/regular-expressions/how-to-validate-email-address-with-regular-expression/
 )
 
-<!-- Commented out Library Example until after ORM Lab is complete
-
 [CS320\_Library\_Example\_2017.zip](CS320_Library_Example_2017.zip) &mdash; Eclipse project that ties the [Web Applications Lab](../labs/lab02.html) together with the [ORM Lab](../labs/lab06.html).  This application places a web front-end on the SQL transactions from Lab06, as well as provides examples for creating a Derby database from CSV files, how to use session information after login, and how to use JSTL to display a list of complex objects in a JSP.  It has been updated to incorporate a many-to-many relationship between **Books** and **Authors**, using a junction table (**booksAuthors**) that cross-references **book_id**'s with **author_id**'s.  It also contains some example JUnit Tests for testing the Derby database queries.
 
 > <div class="callout"><b>NOTE: You are free to incorporate any of this code into your project(s) - as long as you cite the source.</b></div>
@@ -49,7 +47,5 @@ To run the web application, first stop **SQLDemo**, then run **CS320_Lab02->Main
 > [http://localhost:8081/lab02/login](http://localhost:8081/lab02/login)
 
 There are currently two sets of login credentials hard-coded into the application: User name: **student** with PW: **ycp** and User name: **faculty** with PW: **E&CS**.  After you have successfully logged in, the user name will be passed around as part of the Session information, and each subsequent servlet checks for a valid Session (a non-null "user" attribute) before responding to the request.  Note that this is not a secure method for handling credentials, but is used as an example for passing around and checking Session information.
-
---->
 
 > <div class="callout"><b>When you implement the persistence layer using Derby for your team project</b>: when specifying the JDBC URL in the code where you connect to the database, you should use an absolute file name for the database name. For example, <code>jdbc:derby:H:/mydatabase.db;create=true</code> (this will create the database as <code>H:/mydatabase.db</code>).  If you use a relative file name, your web application will probably not find the database (because it runs in the <code>war</code> directory rather than the root directory of the project).</div>

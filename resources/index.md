@@ -50,6 +50,6 @@ To run the web application, first stop **SQLDemo**, then run **CS320_Lab02->Main
 
 There are currently two sets of login credentials hard-coded into the application: User name: **student** with PW: **ycp** and User name: **faculty** with PW: **E&CS**.  After you have successfully logged in, the user name will be passed around as part of the Session information, and each subsequent servlet checks for a valid Session (a non-null "user" attribute) before responding to the request.  Note that this is not a secure method for handling credentials, but is used as an example for passing around and checking Session information.
 
--->
+--->
 
 > <div class="callout"><b>When you implement the persistence layer using Derby for your team project</b>: when specifying the JDBC URL in the code where you connect to the database, you should use an absolute file name for the database name. For example, <code>jdbc:derby:H:/mydatabase.db;create=true</code> (this will create the database as <code>H:/mydatabase.db</code>).  If you use a relative file name, your web application will probably not find the database (because it runs in the <code>war</code> directory rather than the root directory of the project).</div>

@@ -25,6 +25,8 @@ A Java web application consists of *servlets*, which allow the application to ha
 
 We could implement a traditional web application by having our servlets generate HTML directly. For example:
 
+~~~ java
+
     package edu.ycp.cs320.lab11.servlet;
 
     import java.io.IOException;
@@ -53,6 +55,8 @@ We could implement a traditional web application by having our servlets generate
             "</html>");
       }
     }
+	
+~~~
 
 Generating HTML embedded in Java string constants is both tedious and error-prone. Fortunately, J2EE gives us a better way to generate HTML, called Java Server Pages (JSPs).
 
@@ -92,6 +96,8 @@ The view is a JSP which:
 -   displays the result of the computation (if a result was computed by the controller)
 
 Here is the code. First, the view JSP:
+
+~~~ html
 
     <!DOCTYPE html>
     <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
@@ -135,6 +141,8 @@ Here is the code. First, the view JSP:
         </form>
       </body>
     </html>
+	
+~~~
 
 Mostly, the view is just HTML that creates a table of the two numbers to be entered. However, there are a couple of JSP-specific details to notice:
 
@@ -142,6 +150,8 @@ Mostly, the view is just HTML that creates a table of the two numbers to be ente
 -   The syntax **${** *...* **}** specifies a JSTL expression. JSTL expressions can be used to include dynamic content into the HTML document. The JSP above uses this syntax to substitute the values for the first and second input number, the result, and (if there is one) an error message.
 
 Next, here is the servlet code which handles the requests:
+
+~~~ java
 
     package edu.ycp.cs320.lab11.servlet;
 
@@ -204,15 +214,23 @@ Next, here is the servlet code which handles the requests:
         }
       }
     }
+	
+~~~
 
 Most of the code is just parsing request parameters (the input numbers), setting request attributes (the data to be displayed by the view), and forwarding the request to the view JSP. However, the most important part is where the request is dispatched to the controller:
 
+~~~ java
+
     AddNumbersController controller = new AddNumbersController();
     result = controller.add(first, second);
+	
+~~~
 
 Because only model objects are involved, it would be easy to test the behavior of the controller using a JUnit test.
 
 Finally, the controller:
+
+~~~ java
 
     package edu.ycp.cs320.lab11.controller;
 
@@ -222,10 +240,13 @@ Finally, the controller:
       }
     }
 
+~~~
+
 Although this controller is trivial, in general a controller can be used to implement arbitrary application logic.
 
 A good test that you have abstracted the controller well is that it is relatively easy to write JUnit tests:
 
+~~~ java
     package edu.ycp.cs320.lab11.controller;
 
     import static org.junit.Assert.*;
@@ -246,6 +267,8 @@ A good test that you have abstracted the controller well is that it is relativel
         assertEquals((Double) 7.0, controller.add(3.0, 4.0));
       }
     }
+	
+~~~
 
 Web Applications vs. Web Services
 =================================
